@@ -408,8 +408,33 @@ const GetinTouch = () => {
    </div>
         </div> {/* Closing side-content */}
       </div> {/* Closing quote-main-layout - THIS WAS LIKELY MISSING OR MISPLACED */}
+
+        {/*Locatios */}
+        <div className="global-locations-container">
+          <h2>Global Locations</h2>
+        <div className="global-locations">
+  
+  <div className="location-box">
+    <h3>India Office</h3>
+    <p>
+      SPACES OLYMPIA, 10TH FLOOR, CITIUS A BLOCK, PHASE 1, PLOT NO. 1,
+      SIDCO INDUSTRIAL ESTATE, Guindy, Chennai, Tamil Nadu 600032
+    </p>
+  </div>
+
+  <div className="location-box">
+    <h3>Australia Office</h3>
+    <p>
+      17 View Street, Mount Gravatt East, Brisbane, Queensland,
+      Upper Mount Gravatt QLD 4122, Australia
+    </p>
+  </div>
+</div>
+        </div>
+
+
 <div className="global-delivery-section">
-        
+
         {/* 1. Background Map */}
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg" 
