@@ -178,14 +178,14 @@ const GetinTouch = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Infogenx | Book an AI & Automation Call</title>
+        <title>Contact Infogenx | Get AI & IT Solutions Today</title>
         <meta
           name="description"
-          content="Get in touch with Infogenx to discuss your digital transformation goals, request a demo, or book an Australian-led strategy consultation."
+          content="Contact Infogenx to discuss your AI, automation, or software project and discover how we can help your business grow."
         />
         <meta
           name="keywords"
-          content="contact AI & Automation Australia company, IT strategy call Australia"
+          content="contact Infogenx, IT consultation, AI services contact, software company inquiry"
         />
       </Helmet>
       <Header />

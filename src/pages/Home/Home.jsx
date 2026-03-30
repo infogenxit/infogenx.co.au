@@ -12,16 +12,15 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          AI Automation & Application Development Company in Australia |
-          Infogenx  
+        AI & Automation Solutions for Business Growth and Transformation | Infogenx AI-enabled applications, automation, and analytics  
         </title>
         <meta
           name="description"
-          content="Infogenx is an Australian AI automation and application development company delivering intelligent apps, workflow automation, and analytics using Microsoft, Zoho, and Odoo."
+          content="Infogenx delivers AI-enabled applications,AI, automation, and custom software solutions to help businesses scale faster and Transformation, reduce costs, and improve efficiency."
         />
         <meta
           name="keywords"
-          content="AI application development Australia, AI-enabled business applications, intelligent automation Australia, application modernisation services"
+          content="AI enabled solutions, automation services, software development company, business automation, digital transformation, IT consulting"
         />   
       </Helmet>
       <Header />
