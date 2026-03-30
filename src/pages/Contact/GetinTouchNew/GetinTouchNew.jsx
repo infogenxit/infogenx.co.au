@@ -4,6 +4,9 @@ import Header from "../../../components/header/Header";
 import Footer from "../../../components/Footer/Footer";
 import indiaFlag from "../../../assets/images/india-flag.png";
 import australiaFlag from "../../../assets/images/australia-flags.png";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa6";
 import { Helmet } from "react-helmet-async";
 const GetinTouch = () => {
   const [formData, setFormData] = useState({
@@ -448,25 +451,29 @@ const GetinTouch = () => {
         <h2>Global Locations</h2>
         <div className="global-locations">
           <div className="location-box">
-            <h3>India Office</h3>
+            <div className="location-box-header"><img src={indiaFlag} alt="India Flag" className="flag-icon" /><h3>India Office</h3></div>
             <p>
-              <img src={indiaFlag} alt="India Flag" className="flag-icon" />
+              <FaLocationDot /> &nbsp;
               Spaces Olympia, 10th Floor, Citius A Block, Phase 1, Plot No. 1,
               Sidco Industrial Estate, Guindy, Chennai, Tamil Nadu 600032
             </p>
+            <p><FaPhone /> &nbsp; +91 9787806366</p>
+            <p> <FaEnvelope /> &nbsp; <a href="mailto:reachus@infogenx.com"style={{color: "#00123C", textDecoration: "none"}}>reachus@infogenx.com</a></p>
           </div>
 
           <div className="location-box">
-            <h3>Australia Office</h3>
-            <p>
-              <img
+            <div className="location-box-header"><img
                 src={australiaFlag}
                 alt="Australia Flag"
                 className="flag-icon"
-              />
+              /><h3>Australia Office</h3></div>
+            <p>
+              <FaLocationDot /> &nbsp;
               17 View Street, Mount Gravatt East, Brisbane, Queensland, Upper
               Mount Gravatt QLD 4122, Australia
             </p>
+            <p><FaPhone /> &nbsp; +61 403339424 </p>
+            <p> <FaEnvelope /> &nbsp; <a href="mailto:reachus@infogenx.com" style={{color: "#00123C", textDecoration: "none"}}>reachus@infogenx.com</a></p>
           </div>
         </div>
       </div>
