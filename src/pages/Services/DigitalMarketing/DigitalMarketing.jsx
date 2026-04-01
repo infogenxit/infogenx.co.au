@@ -10,14 +10,14 @@ const DigitalMarketing = () => {
   return (
     <>
       <Helmet>
-        <title>Digital Marketing Services | Infogenx Australia</title>
+        <title>Digital Marketing Services to Drive Growth | Infogenx</title>
         <meta
           name="description"
-          content="Boost your online presence and drive growth with our comprehensive digital marketing solutions tailored for the Australian market."
+          content="Boost traffic, leads, and sales with Infogenx digital marketing. We deliver SEO, ads, and content strategies that drive measurable growth."
         />
         <meta
           name="keywords"
-          content="digital marketing Australia, online marketing services"
+          content="digital marketing services for business, SEO services India, PPC advertising, social media marketing, content marketing, lead generation services, performance marketing"
         />
       </Helmet>
       <Header />
