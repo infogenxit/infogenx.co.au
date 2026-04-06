@@ -23,15 +23,13 @@ const Hero = () => {
       {/* <NetworkBackground /> */}
       <div className="hero-container">
         <h1 className="hero-heading">
-          {/* <span>Innovate</span>, <span>Automate</span>, and <span>Scale</span> */}
-          {/* <span>Apps</span>, <span>Automation</span>, <span>Analytics</span>,
-          <span>And AI</span> */}
-          <span>Build Smarter. Automate Faster. Decide Better.</span>
+          Build Smarter. Automate Faster. Decide Better.
         </h1>
 
         <h2 className="hero-subheading">
           AI-enabled applications, automation, and analytics for{" "}
-          <span>Microsoft, Zoho, and Odoo—engineered</span> for growth, governance, and real business impact.
+          <span>Microsoft, Zoho, and Odoo—engineered</span> for growth,
+          governance, and real business impact.
         </h2>
 
         {/* <p className="hero-description">

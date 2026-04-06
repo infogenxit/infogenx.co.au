@@ -1046,6 +1046,9 @@ body {
         white-space: normal;
     }
 }
+.contact-form-wrapper{
+    padding-top: 30px;
+}
 
 .contact-form input[type="checkbox"] {
     width: 16px !important;    

@@ -3,21 +3,16 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
 import ServicesDropdown from "./ServicesDropdown";
-// import TechnologiesDropdown from "./TechnologiesDropdown";
-// import IndustriesDropdown from "./IndustriesDropdown";
 import SolutionsDropdown from "./SolutionsDropdown";
 import PlatformsDropdown from "./PlatformsDropdown";
 import InsightDropdown from "./InsightDropdown";
-// import ContactDropdown from "./ContactDropdown";
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  // const [technologiesOpen, setTechnologiesOpen] = useState(false);
-  // const [industriesOpen, setIndustriesOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
   const [platformsOpen, setPlatformsOpen] = useState(false);
   const [insightOpen, setInsightOpen] = useState(false);
-  // const [contactOpen, setContactOpen] = useState(false);
 
   return (
     <header className="header">
@@ -69,33 +64,7 @@ const Header = () => {
             Products
           </Link>
 
-          {/* <div
-            className="nav-item"
-            onMouseEnter={() => setTechnologiesOpen(true)}
-            onMouseLeave={() => setTechnologiesOpen(false)}
-          >
-            <span className="nav-link">Technologies</span>
-            {technologiesOpen && (
-              <TechnologiesDropdown
-                closeMenu={() => setTechnologiesOpen(false)}
-              />
-            )}
-          </div> */}
-
-          {/* <div
-            className="nav-item"
-            onMouseEnter={() => setIndustriesOpen(true)}
-            onMouseLeave={() => setIndustriesOpen(false)}
-          >
-            <span className="nav-link">Industries</span>
-            {industriesOpen && (
-              <IndustriesDropdown closeMenu={() => setIndustriesOpen(false)} />
-            )}
-          </div> */}
-
           <Link to="/portfolio">Portfolio</Link>
-          {/* <Link to="/blog">Blog</Link>  */}
-          {/* <Link to="/insights">Insights</Link> */}
           <div
             className="nav-item"
             onMouseEnter={() => setInsightOpen(true)}
@@ -108,16 +77,6 @@ const Header = () => {
           </div>
 
           <Link to="/contact-us">Contact Us</Link>
-          {/* <div
-            className="nav-item"
-            onMouseEnter={() => setContactOpen(true)}
-            onMouseLeave={() => setContactOpen(false)}
-          >
-            <span className="nav-link">Contact Us</span>
-            {contactOpen && (
-              <ContactDropdown closeMenu={() => setContactOpen(false)} />
-            )}
-          </div> */}
         </nav>
         <div className="quote-wrapper">
           <Link to="/contact-us" className="quote-btn desktop-only">

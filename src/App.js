@@ -6,9 +6,6 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Products from "./pages/Products/Products";
 import Contact from "./pages/Contact/Contact";
-/*import GetinTouch from "./pages/Contact/GetinTouch/GetinTouch";*/
-import GetinTouch from "./pages/Contact/GetinTouchNew/GetinTouchNew";
-import GlobalLocations from "./pages/Contact/GlobalLocations/GlobalLocations";
 import ImplementationIntegration from "./pages/Services/ImplementationIntegration/ImplementationIntegration";
 import ConsultingAdvisory from "./pages/Services/Consulting&Advisory/Consulting&Advisory";
 import SupportOptimization from "./pages/Services/SupportOptimization/support-optimization";
@@ -22,7 +19,6 @@ import CloudComputing from "./pages/Technologies/CloudComputing/CloudComputing";
 import Healthcare from "./pages/Industries/Healthcare/Healthcare";
 import Finance from "./pages/Industries/Finance/Finance";
 import Retail from "./pages/Industries/Retail/Retail";
-import RequestQuote from "./pages/RequestQuote/RequestQuote";
 import ECommerce from "./pages/Industries/ECommerce/ECommerce";
 import Manufacturing from "./pages/Industries/Manufacturing/Manufacturing";
 import Transport from "./pages/Industries/Transport/Transport";
@@ -35,8 +31,6 @@ import ModernApplication from "./pages/Solutions/ModernApplication/ModernApplica
 import MicrosoftSolution from "./pages/Platforms/MicrosoftSolutions/MicrosoftSolution";
 import ZohoSolution from "./pages/Platforms/ZohoSolutions/ZohoSolution";
 import OdooSolution from "./pages/Platforms/OdooSolutions/OdooSolution";
-
-import CaseStudies from "./pages/Insights/CaseStudies/CaseStudies";
 import IgxStock from "./pages/Products/IGXStock/IgxStock";
 import OdooErp from "./pages/Products/OdooErp/OdooErp";
 import RetailPos from "./pages/Products/RetailPos/RetailPos";
@@ -55,7 +49,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/request-quote" element={<RequestQuote />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
@@ -75,12 +68,6 @@ function App() {
           <Route
             path="/products/customer-relationship-management-system"
             element={<CustomerRelation />}
-          />
-          <Route path="/insights/case-studies" element={<CaseStudies />} />
-          <Route path="/contact-us/get-in-touch" element={<GetinTouch />} />
-          <Route
-            path="/contact-us/global-locations"
-            element={<GlobalLocations />}
           />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route
