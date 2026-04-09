@@ -17,7 +17,7 @@ const AppDevBusinessImpact = () => {
         <div className="business-impact-grid">
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business1} alt="" />
+              <img src={Business1} alt="Intelligent automation impact visual 1" />
             </div>
             <div className="impact-content">
               <h4>Australian-Led, Locally Accountable</h4>
@@ -29,7 +29,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business2} alt="" />
+              <img src={Business2} alt="Intelligent automation impact visual 2" />
             </div>
             <div className="impact-content">
               <h4>Deep Platform Expertise</h4>
@@ -41,7 +41,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business3} alt="" />
+              <img src={Business3} alt="Intelligent automation impact visual 3" />
             </div>
             <div className="impact-content">
               <h4>Security-First by Design</h4>
@@ -53,7 +53,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business4} alt="" />
+              <img src={Business4} alt="Intelligent automation impact visual 4" />
             </div>
             <div className="impact-content">
               <h4>End-to-End Transformation Thinking</h4>

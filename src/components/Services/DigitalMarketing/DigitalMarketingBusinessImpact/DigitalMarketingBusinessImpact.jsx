@@ -17,7 +17,7 @@ const AppDevBusinessImpact = () => {
         <div className="business-impact-grid">
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business1} alt="" />
+              <img src={Business1} alt="Digital marketing impact visual 1" />
             </div>
             <div className="impact-content">
               <h4>Results-Driven Approach</h4>
@@ -30,7 +30,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business2} alt="" />
+              <img src={Business2} alt="Digital marketing impact visual 2" />
             </div>
             <div className="impact-content">
               <h4>Multi-Channel Expertise</h4>
@@ -43,7 +43,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business3} alt="" />
+              <img src={Business3} alt="Digital marketing impact visual 3" />
             </div>
             <div className="impact-content">
               <h4>Cost-Effective Campaigns</h4>
@@ -56,7 +56,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business4} alt="" />
+              <img src={Business4} alt="Digital marketing impact visual 4" />
             </div>
             <div className="impact-content">
               <h4>Growth-Focused Strategies</h4>

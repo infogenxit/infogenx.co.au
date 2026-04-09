@@ -17,7 +17,7 @@ const AppDevBusinessImpact = () => {
         <div className="business-impact-grid">
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business1} alt="" />
+              <img src={Business1} alt="Support optimization impact visual 1" />
             </div>
             <div className="impact-content">
               <h4>
@@ -33,7 +33,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business2} alt="" />
+              <img src={Business2} alt="Support optimization impact visual 2" />
             </div>
             <div className="impact-content">
               <h4>Data-Driven Optimisation for Maximum ROI</h4>
@@ -46,7 +46,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business3} alt="" />
+              <img src={Business3} alt="Support optimization impact visual 3" />
             </div>
             <div className="impact-content">
               <h4>Proven Outcomes: Higher Efficiency and Lower Costs</h4>
@@ -59,7 +59,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business4} alt="" />
+              <img src={Business4} alt="Support optimization impact visual 4" />
             </div>
             <div className="impact-content">
               <h4>Security-First Approach Aligned to Australian Standards</h4>

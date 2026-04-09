@@ -17,7 +17,7 @@ const AppDevBusinessImpact = () => {
         <div className="business-impact-grid">
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business1} alt="" />
+              <img src={Business1} alt="Digital transformation impact visual 1" />
             </div>
             <div className="impact-content">
               <h4>Modernised Platforms and Workflows</h4>
@@ -29,7 +29,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business2} alt="" />
+              <img src={Business2} alt="Digital transformation impact visual 2" />
             </div>
             <div className="impact-content">
               <h4>Reduced Manual Effort</h4>
@@ -41,7 +41,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business3} alt="" />
+              <img src={Business3} alt="Digital transformation impact visual 3" />
             </div>
             <div className="impact-content">
               <h4>SGreater Visibility and Control</h4>
@@ -53,7 +53,7 @@ const AppDevBusinessImpact = () => {
 
           <div className="impact-card">
             <div className="impact-image">
-              <img src={Business4} alt="" />
+              <img src={Business4} alt="Digital transformation impact visual 4" />
             </div>
             <div className="impact-content">
               <h4>Scalable Digital Foundations</h4>

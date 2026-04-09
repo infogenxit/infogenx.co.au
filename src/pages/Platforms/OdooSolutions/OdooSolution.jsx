@@ -20,6 +20,24 @@ const OdooSolution = () => {
           name="keywords"
           content="Odoo ERP Australia, Odoo implementation, ERP automation"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Odoo ERP Implementation & Customisation | Infogenx"
+        />
+        <meta
+          property="og:description"
+          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Odoo ERP Implementation & Customisation | Infogenx"
+        />
+        <meta
+          name="twitter:description"
+          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
+        />
       </Helmet>
       <Header />
       <AppDevHero />
