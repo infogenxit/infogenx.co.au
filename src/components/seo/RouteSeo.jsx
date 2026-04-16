@@ -12,8 +12,12 @@ const canonicalPathByRoute = {
 
 const RouteSeo = () => {
   const location = useLocation();
+  const normalizedPathname =
+    location.pathname.length > 1 && location.pathname.endsWith("/")
+      ? location.pathname.slice(0, -1)
+      : location.pathname;
   const canonicalPath =
-    canonicalPathByRoute[location.pathname] ?? location.pathname;
+    canonicalPathByRoute[normalizedPathname] ?? normalizedPathname;
   const canonicalUrl = `${SITE_URL}${canonicalPath === "/" ? "/" : canonicalPath}`;
   const robotsContent =
     location.pathname === "/contact-us/get-in-touch"

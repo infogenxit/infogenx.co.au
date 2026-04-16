@@ -2,6 +2,7 @@ import "./PrivacyPolicy.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
@@ -223,6 +224,13 @@ const PrivacyPolicy = () => {
             </p>
             <p>
               <strong>Address:</strong>  207/17 View Street, Mount Gravatt East, QLD-4122
+            </p>
+          </div>
+          <div className="privacy-block">
+            <p>
+              Helpful links: <Link to="/terms-conditions">Terms & Conditions</Link>,{" "}
+              <Link to="/contact-us">Contact Us</Link>,{" "}
+              <Link to="/">Home</Link>.
             </p>
           </div>
         </div>

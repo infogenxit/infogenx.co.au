@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollTop/ScrollToTop";
 import GtmPageViewTracker from "./components/analytics/GtmPageViewTracker";
 import RouteSeo from "./components/seo/RouteSeo";
@@ -48,6 +48,10 @@ function App() {
         <RouteSeo />
         <ScrollToTop />
         <Routes>
+          <Route
+            path="/contact-us/get-in-touch"
+            element={<Navigate to="/contact-us" replace />}
+          />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
@@ -154,6 +158,7 @@ function App() {
             path="/industries/transport-logistics"
             element={<Transport />}
           />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
     </div>

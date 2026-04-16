@@ -2,6 +2,7 @@ import "./TermsConditions.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const TermsConditions = () => {
   return (
@@ -188,6 +189,13 @@ const TermsConditions = () => {
               By using our website or services, you acknowledge that you have
               read and understood these Terms and Conditions and agree to be
               bound by them.
+            </p>
+          </div>
+          <div className="terms-block">
+            <p>
+              Helpful links: <Link to="/privacy-policy">Privacy Policy</Link>,{" "}
+              <Link to="/contact-us">Contact Us</Link>,{" "}
+              <Link to="/">Home</Link>.
             </p>
           </div>
         </div>
