@@ -7,22 +7,29 @@ import Testimonials from "../../components/Home/Testimonials/Testimonials";
 import CtaBanner from "../../components/Home/CtaBanner/CtaBanner";
 import Footer from "../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
+
 const Home = () => {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://infogenx.com.au" />
+        <meta name="robots" content="INDEX, FOLLOW" />
         <title>
-          AI Software Company in Australia | Infogenx Automation Solutions
+          AI Automation & Application Development Company in Australia | Infogenx
         </title>
         <meta
           name="description"
-          content="Infogenx is a leading AI software company in Australia providing
-automation, cloud, and custom software solutions."
+          content="Infogenx is an Australian AI automation and application development company delivering intelligent apps, workflow automation, and analytics."
         />
         <meta
           name="keywords"
           content="AI enabled solutions, automation services, software development company, business automation, digital transformation, IT consulting"
         />
+        <meta property="og:url" content="https://infogenx.com.au" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="AI Automation & Application Development Company in Australia | Infogenx" />
+        <meta property="og:description" content="Infogenx is an Australian AI automation and application development company delivering intelligent apps, workflow automation, and analytics." />
+        <meta property="og:image" content="https://infogenx.com.au/infogenx-og-image.png" />
       </Helmet>
       <Header />
       <Hero />
