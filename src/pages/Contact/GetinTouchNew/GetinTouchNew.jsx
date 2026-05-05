@@ -194,6 +194,13 @@ const GetinTouch = () => {
           name="keywords"
           content="contact Infogenx, IT consultation, AI services contact, software company inquiry"
         />
+        <link rel="canonical" href="https://infogenx.com.au/contact-us" />
+        <meta name="robots" content="INDEX, FOLLOW" />
+        <meta property="og:url" content="https://infogenx.com.au/contact-us" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Contact Infogenx | Get AI & IT Solutions Today" />
+        <meta property="og:description" content="Contact Infogenx to discuss your AI, automation, or software project and discover how we can help your business grow." />
+        <meta property="og:image" content="https://infogenx.com.au/infogenx-og-image.png" />
       </Helmet>
       <Header />
       <div className="page-intro-header container">
