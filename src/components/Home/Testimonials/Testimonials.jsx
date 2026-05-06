@@ -113,7 +113,7 @@ const testimonials = [
 //         >
 //           {slides.map((item, i) => (
 //             <div className="testimonial-card" key={i}>
-//               <img src={cornerAssent} className="corner-accent" alt="Decorative corner accent" />
+//               <img src={cornerAssent} className="corner-accent" alt="" />
 
 
 //               <div className="testimonial-content">
@@ -232,11 +232,7 @@ const Testimonials = () => {
         >
           {slides.map((item, i) => (
             <div className="testimonial-card" key={i}>
-              <img
-                src={cornerAssent}
-                className="corner-accent"
-                alt="Decorative corner accent"
-              />
+              <img src={cornerAssent} className="corner-accent" alt="" />
 
               <div className="testimonial-content">
                 <span className="quote">"</span>

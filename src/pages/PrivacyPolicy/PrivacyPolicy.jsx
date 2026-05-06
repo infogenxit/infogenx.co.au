@@ -2,12 +2,17 @@ import "./PrivacyPolicy.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import SEO from "../../components/SEO/SEO";
 
 const PrivacyPolicy = () => {
   return (
     <>
-      <Helmet>
+      <SEO
+        title="Privacy Policy | Infogenx"
+        description="Read Infogenx Privacy Policy to understand how we collect, use, and protect your personal information while using our website and services."
+        keywords="Infogenx privacy policy, data protection, user privacy, information security policy"
+      />
+      {/* <Helmet>
         <title>Privacy Policy | Infogenx</title>
         <meta
           name="description"
@@ -17,7 +22,7 @@ const PrivacyPolicy = () => {
           name="keywords"
           content="Infogenx privacy policy, data protection, user privacy, information security policy"
         />
-      </Helmet>
+      </Helmet> */}
 
       <Header />
       <section className="privacy-policy-section">
@@ -84,7 +89,7 @@ const PrivacyPolicy = () => {
             <p>
               <strong>Personalisation:</strong> To personalise your experience by
               customising the content you see based on your preferences and
-              behaviour.
+              behaviour.              
             </p>
           </div>
 
@@ -224,13 +229,6 @@ const PrivacyPolicy = () => {
             </p>
             <p>
               <strong>Address:</strong>  207/17 View Street, Mount Gravatt East, QLD-4122
-            </p>
-          </div>
-          <div className="privacy-block">
-            <p>
-              Helpful links: <Link to="/terms-conditions">Terms & Conditions</Link>,{" "}
-              <Link to="/contact-us">Contact Us</Link>,{" "}
-              <Link to="/">Home</Link>.
             </p>
           </div>
         </div>

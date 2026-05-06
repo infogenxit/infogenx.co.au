@@ -7,12 +7,15 @@ import { useNavigate } from "react-router-dom";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaChartBar } from "react-icons/fa";
 import { FaUserGear } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+
 import Footer from "../../components/Footer/Footer";
 import CtaBanner from "../../components/Home/CtaBanner/CtaBanner";
 import { useState } from "react";
 import DemoPopup from "./DemoPopup";
 import { Helmet } from "react-helmet-async";
+import SEO from "../../components/SEO/SEO";
+import AboutCornerAccent from "../../assets/images/about-corner-accent.png";
+
 const Products = () => {
   const navigate = useNavigate();
   const steps = [
@@ -73,7 +76,12 @@ const Products = () => {
 
   return (
     <>
-      <Helmet>
+      <SEO
+        title="Automation Software Products & Custom Solutions for Startups & Enterprises in Brisbane, Australia | Infogenx"
+        description="Explore Infogenx’s innovative IT products designed to streamline operations, enhance efficiency, and drive business growth across Australia."
+        keywords="Australian IT consulting, AI solutions Australia, digital transformation services, AI-enabled intelligent automation,intelligent process automation solutions,AI application development Australia,AI-enabled business applications,application modernisation Australia,enterprise application transformation"
+      />
+      {/* <Helmet>
         <title>
           Automation Software Products & Custom Solutions for Startups &
           Enterprises in Brisbane, Australia | Infogenx
@@ -86,21 +94,14 @@ const Products = () => {
           name="keywords"
           content="Australian IT consulting, AI solutions Australia, digital transformation services, AI-enabled intelligent automation,intelligent process automation solutions,AI application development Australia,AI-enabled business applications,application modernisation Australia,enterprise application transformation"
         />
-        <link rel="canonical" href="https://infogenx.com.au/products" />
-        <meta name="robots" content="INDEX, FOLLOW" />
-        <meta property="og:url" content="https://infogenx.com.au/products" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Automation Software Products & Custom Solutions for Startups & Enterprises in Brisbane, Australia | Infogenx" />
-        <meta property="og:description" content="Explore Infogenx’s innovative IT products designed to streamline operations, enhance efficiency, and drive business growth." />
-        <meta property="og:image" content="https://infogenx.com.au/infogenx-og-image.png" />
-      </Helmet>
+      </Helmet> */}
 
       <Header />
       <section className="product-WebDev-hero">
         <img
           alt="corner accent"
           className="about-corner-accent"
-          src="/static/media/about-corner-accent.69f6c2ba49b10849fff3.png"
+          src={AppcornerAssent}
         ></img>
         <div className="product-WebDev-hero-container">
           <h1 className="product-products-hero-heading">
@@ -156,14 +157,18 @@ const Products = () => {
                   <span className="product-icon">{step.icon}</span>
                 </div>
                 <div className="approach-card-button">
-                  <Link
-                    to={step.btn1}
+                  <button
+                    onClick={() => window.open(step.btn1, "_blank")}
                     className="try-btn"
-                    style={{ textDecoration: "none" }}
                   >
                     Try for free
-                  </Link>
-
+                  </button>
+                  {/* <button
+                    onClick={() => window.open(step.btn2, "_blank")}
+                    className="demo-btn"
+                  >
+                    Show Demo
+                  </button> */}
                   <button
                     className="demo-btn"
                     onClick={() => setActiveDemo(step)}

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollTop/ScrollToTop";
 import GtmPageViewTracker from "./components/analytics/GtmPageViewTracker";
@@ -7,13 +8,14 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Products from "./pages/Products/Products";
 import Contact from "./pages/Contact/Contact";
-import RequestQuote from "./pages/RequestQuote/RequestQuote";
+import GetinTouchNew from "./pages/Contact/GetinTouchNew/GetinTouchNew";
+import GlobalLocations from "./pages/Contact/GlobalLocations/GlobalLocations";
 import ImplementationIntegration from "./pages/Services/ImplementationIntegration/ImplementationIntegration";
 import ConsultingAdvisory from "./pages/Services/Consulting&Advisory/Consulting&Advisory";
 import SupportOptimization from "./pages/Services/SupportOptimization/support-optimization";
 import ManagedServices from "./pages/Services/ManagedServices/managed-services";
 import DigitalMarketing from "./pages/Services/DigitalMarketing/DigitalMarketing";
-import WebDevelopment from "./pages/Technologies/WebDev/Webdev";
+import Webdev from "./pages/Technologies/WebDev/Webdev";
 import MobileAppDevelopment from "./pages/Technologies/MobileApp/MobileApp";
 import ArtificialIntelligence from "./pages/Technologies/AI/AI";
 import DataEngineering from "./pages/Technologies/DataEngineering/DataEngineering";
@@ -21,6 +23,7 @@ import CloudComputing from "./pages/Technologies/CloudComputing/CloudComputing";
 import Healthcare from "./pages/Industries/Healthcare/Healthcare";
 import Finance from "./pages/Industries/Finance/Finance";
 import Retail from "./pages/Industries/Retail/Retail";
+import RequestQuote from "./pages/RequestQuote/RequestQuote";
 import ECommerce from "./pages/Industries/ECommerce/ECommerce";
 import Manufacturing from "./pages/Industries/Manufacturing/Manufacturing";
 import Transport from "./pages/Industries/Transport/Transport";
@@ -33,15 +36,18 @@ import ModernApplication from "./pages/Solutions/ModernApplication/ModernApplica
 import MicrosoftSolution from "./pages/Platforms/MicrosoftSolutions/MicrosoftSolution";
 import ZohoSolution from "./pages/Platforms/ZohoSolutions/ZohoSolution";
 import OdooSolution from "./pages/Platforms/OdooSolutions/OdooSolution";
+
+import CaseStudies from "./pages/Insights/CaseStudies/CaseStudies";
 import IgxStock from "./pages/Products/IGXStock/IgxStock";
 import OdooErp from "./pages/Products/OdooErp/OdooErp";
 import RetailPos from "./pages/Products/RetailPos/RetailPos";
 import CustomerRelation from "./pages/Products/CustomerRelation/CustomerRelation";
-import Career from "./pages/Careers/Careers";
+// import Career from "./pages/Careers/Careers";
+import Careers from "./pages/Careers/Careers";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions/TermsConditions";
-import { useEffect } from "react";
 import "./App.css";
+
 function App() {
   useEffect(() => {
     const widgetCode = process.env.REACT_APP_ZOHO_SALESIQ_WIDGET_CODE;
@@ -58,6 +64,7 @@ function App() {
       document.body.appendChild(script);
     }
   }, []);
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -65,15 +72,15 @@ function App() {
         <RouteSeo />
         <ScrollToTop />
         <Routes>
-          <Route
+          {/* <Route
             path="/contact-us/get-in-touch"
             element={<Navigate to="/contact-us" replace />}
-          />
+          /> */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/request-quote" element={<RequestQuote />} />
-          <Route path="/careers" element={<Career />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/contact-us" element={<Contact />} />
@@ -92,6 +99,12 @@ function App() {
           <Route
             path="/products/customer-relationship-management-system"
             element={<CustomerRelation />}
+          />
+          <Route path="/insights/case-studies" element={<CaseStudies />} />
+          <Route path="/contact-us/get-in-touch" element={<GetinTouchNew />} />
+          <Route
+            path="/contact-us/global-locations"
+            element={<GlobalLocations />}
           />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route
@@ -140,7 +153,7 @@ function App() {
           />
           <Route
             path="/technologies/web-development"
-            element={<WebDevelopment />}
+            element={<Webdev />}
           />
           <Route
             path="/technologies/mobile-app-development"
@@ -176,7 +189,18 @@ function App() {
             path="/industries/transport-logistics"
             element={<Transport />}
           />
-          <Route path="*" element={<Navigate to="/" replace />} />
+          {/* Specific redirects for legacy URLs */}
+          <Route path="/platforms/microsoft-solutions" element={<MicrosoftSolution />} />
+          <Route path="/platforms/zoho-solutions" element={<ZohoSolution />} />
+          <Route path="/platforms/odoo-solutions" element={<OdooSolution />} />
+          <Route path="/industries/healthcare" element={<Healthcare />} />
+          <Route path="/industries/retail" element={<Retail />} />
+          <Route path="/industries/manufacturing" element={<Manufacturing />} />
+          <Route path="/industries/e-commerce" element={<ECommerce />} />
+          <Route path="/industries/finance" element={<Finance />} />
+          
+          {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

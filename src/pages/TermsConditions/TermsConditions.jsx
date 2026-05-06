@@ -2,12 +2,17 @@ import "./TermsConditions.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import SEO from "../../components/SEO/SEO";
 
 const TermsConditions = () => {
   return (
     <>
-      <Helmet>
+      <SEO
+        title="Terms & Conditions | Infogenx"
+        description="Review the terms and conditions governing the use of Infogenx website and services, including user responsibilities and service limitations."
+        keywords="Infogenx terms and conditions, website terms, service agreement, legal terms"
+      />
+      {/* <Helmet>
         <title>Terms & Conditions | Infogenx</title>
         <meta
           name="description"
@@ -17,7 +22,7 @@ const TermsConditions = () => {
           name="keywords"
           content="Infogenx terms and conditions, website terms, service agreement, legal terms"
         />
-      </Helmet>
+      </Helmet> */}
 
       <Header />
       <section className="terms-section">
@@ -110,6 +115,7 @@ const TermsConditions = () => {
               payment providers, and you agree to comply with their terms as well.
             </p>
           </div>
+          
 
           <div className="terms-block">
             <h2>8. Limitation of Liability</h2>
@@ -189,13 +195,6 @@ const TermsConditions = () => {
               By using our website or services, you acknowledge that you have
               read and understood these Terms and Conditions and agree to be
               bound by them.
-            </p>
-          </div>
-          <div className="terms-block">
-            <p>
-              Helpful links: <Link to="/privacy-policy">Privacy Policy</Link>,{" "}
-              <Link to="/contact-us">Contact Us</Link>,{" "}
-              <Link to="/">Home</Link>.
             </p>
           </div>
         </div>

@@ -7,38 +7,26 @@ import AppDevBusinessImpact from "../../../components/Platforms/Odoo/OdooBusines
 // import AppDevImpactCTA from "../../../components/Platforms/Odoo/OdooImpactCTA/OdooImpactCTA";
 import Footer from "../../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
+import SEO from "../../../components/SEO/SEO";
 const OdooSolution = () => {
   return (
     <>
-      <Helmet>
+      <SEO
+        title="Odoo ERP Implementation & Customisation | Infogenx"
+        description="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
+        keywords="Odoo ERP Australia, Odoo implementation, ERP automation"
+      />
+      {/* <Helmet>
         <title>Odoo ERP Implementation & Customisation | Infogenx</title>
         <meta
           name="description"
-          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility. "
+          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
         />
         <meta
           name="keywords"
           content="Odoo ERP Australia, Odoo implementation, ERP automation"
         />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Odoo ERP Implementation & Customisation | Infogenx"
-        />
-        <meta
-          property="og:description"
-          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Odoo ERP Implementation & Customisation | Infogenx"
-        />
-        <meta
-          name="twitter:description"
-          content="Infogenx delivers Odoo ERP implementation, custom modules, and workflow automation to streamline operations and improve business visibility."
-        />
-      </Helmet>
+      </Helmet> */}
       <Header />
       <AppDevHero />
       <AppDevExpertise />

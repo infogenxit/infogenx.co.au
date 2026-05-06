@@ -78,7 +78,7 @@ const Expertise = () => {
               and support sustainable business growth.
 
             </p>
-            <img src={card1} alt="App development expertise card" />
+            <img src={card1} alt="" />
           </div>
 
           <div className="expertise-card center-card">
@@ -88,7 +88,7 @@ const Expertise = () => {
               and keep operations running more accurately.
 
             </p>
-            <img src={card2} alt="Automation and AI expertise card" />
+            <img src={card2} alt="" />
           </div>
 
           <div className="expertise-card last-card">
@@ -97,7 +97,7 @@ const Expertise = () => {
               We turn fragmented business data into actionable intelligence that supports faster,
               more confident decision-making.
             </p>
-            <img src={card3} alt="Data and cloud expertise card" />
+            <img src={card3} alt="" />
           </div>
         </div>
       </div>
