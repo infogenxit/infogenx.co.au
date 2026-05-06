@@ -9,21 +9,23 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Infogenx | AI & Software Development Experts</title>
+        <title>
+          About Infogenx | Australian IT Consulting & Engineering Firm
+        </title>
         <meta
           name="description"
-          content="Learn about Infogenx, a global IT company delivering AI, automation, and custom software solutions for modern businesses worldwide."
+          content="Learn about Infogenx—our story, leadership, partnerships, and mission to deliver intelligent, outcome-driven digital solutions for businesses."
         />
         <meta
           name="keywords"
-          content="about Infogenx, IT company profile, AI experts, software development team, global tech company"
+          content="about Infogenx, Australian IT consulting company, digital engineering firm"
         />
         <link rel="canonical" href="https://infogenx.com.au/about" />
         <meta name="robots" content="INDEX, FOLLOW" />
         <meta property="og:url" content="https://infogenx.com.au/about" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="About Infogenx | AI & Software Development Experts" />
-        <meta property="og:description" content="Learn about Infogenx, a global IT company delivering AI, automation, and custom software solutions for modern businesses worldwide." />
+        <meta property="og:title" content="About Infogenx | Australian IT Consulting & Engineering Firm" />
+        <meta property="og:description" content="Learn about Infogenx—our story, leadership, partnerships, and mission to deliver intelligent, outcome-driven digital solutions." />
         <meta property="og:image" content="https://infogenx.com.au/infogenx-og-image.png" />
       </Helmet>
       <Header />

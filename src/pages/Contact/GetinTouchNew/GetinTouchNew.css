@@ -1046,9 +1046,6 @@ body {
         white-space: normal;
     }
 }
-.contact-form-wrapper{
-    padding-top: 30px;
-}
 
 .contact-form input[type="checkbox"] {
     width: 16px !important;    
@@ -1196,72 +1193,4 @@ body .contact-form-container .contact-form textarea {
     height: 120px !important; 
     min-height: 120px !important;
     max-height: 120px !important; /* Locking max-height prevents anything else from stretching it */
-}
-
-.global-locations-container {
-    padding: 0 120px;
-    margin-top: 40px;
-}
-
-.global-locations-container h2 {
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #00123c;
-}
-
-.global-locations {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-
-    align-items: stretch;
-    margin: 40px 0;
-    flex-wrap: wrap;
-
-}
-
-.location-box {
-
-    border-radius: 12px;
-    padding: 20px;
-    width: 450px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    /* border: 1px solid #f0f0f0; */
-    border: 2px solid transparent;
-    background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(110deg, #081256 0%, #081256 55%, #F36B2A 100%) border-box;
-    box-sizing: border-box;
-
-}
-
-.location-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
-}
-
-.location-box h3 {
-    
-    font-size: 18px;
-    color: #00123C;
-}
-
-.location-box p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
-    font-weight: 500
-}
-
-.flag-icon {
-    width: 45px;
-    height: 23px;
-    margin-right: 12px;
-    flex-shrink: 0;
-}
-.location-box-header{
-    display: flex;
-    align-items: center;
-    gap: 12px;
 }

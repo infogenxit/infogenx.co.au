@@ -80,7 +80,7 @@ const Products = () => {
         </title>
         <meta
           name="description"
-          content="Explore Infogenx's innovative IT products designed to streamline operations, enhance efficiency, and drive business growth across Australia."
+          content="Explore Infogenx’s innovative IT products designed to streamline operations, enhance efficiency, and drive business growth across Australia."
         />
         <meta
           name="keywords"
@@ -90,8 +90,8 @@ const Products = () => {
         <meta name="robots" content="INDEX, FOLLOW" />
         <meta property="og:url" content="https://infogenx.com.au/products" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Automation Software Products & Custom Solutions | Infogenx" />
-        <meta property="og:description" content="Explore Infogenx's innovative IT products designed to streamline operations, enhance efficiency, and drive business growth." />
+        <meta property="og:title" content="Automation Software Products & Custom Solutions for Startups & Enterprises in Brisbane, Australia | Infogenx" />
+        <meta property="og:description" content="Explore Infogenx’s innovative IT products designed to streamline operations, enhance efficiency, and drive business growth." />
         <meta property="og:image" content="https://infogenx.com.au/infogenx-og-image.png" />
       </Helmet>
 
