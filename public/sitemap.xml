@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://infogenx.com.au/</loc>
-  <lastmod>2026-05-05T10:30:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://infogenx.com.au/about</loc>
-  <lastmod>2026-05-05T10:30:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://infogenx.com.au/products</loc>
-  <lastmod>2026-05-05T10:30:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://infogenx.com.au/contact-us</loc>
-  <lastmod>2026-05-05T10:30:00+00:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://infogenx.com.au/</loc><priority>1.0</priority></url>
+  <url><loc>https://infogenx.com.au/about</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/services/implementation-integration</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/services/managed-services</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/services/consulting-advisory</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/services/support-optimization</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/services/digital-marketing</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/solutions/intelligent-automation</loc><priority>0.9</priority></url>
+  <url><loc>https://infogenx.com.au/solutions/data-analytics-ai</loc><priority>0.9</priority></url>
+  <url><loc>https://infogenx.com.au/solutions/digital-transformation</loc><priority>0.9</priority></url>
+  <url><loc>https://infogenx.com.au/solutions/api-integration</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/solutions/modern-applications</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/platforms/microsoft</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/platforms/zoho</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/platforms/odoo</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/industries/healthcare-solutions</loc><priority>0.7</priority></url>
+  <url><loc>https://infogenx.com.au/industries/retail-solutions</loc><priority>0.7</priority></url>
+  <url><loc>https://infogenx.com.au/industries/manufacturing-solutions</loc><priority>0.7</priority></url>
+  <url><loc>https://infogenx.com.au/industries/finance-solutions</loc><priority>0.7</priority></url>
+  <url><loc>https://infogenx.com.au/industries/transport-logistics</loc><priority>0.7</priority></url>
+  <url><loc>https://infogenx.com.au/products</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/products/stock-management-system</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/products/odoo-erp-management-system</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/products/retail-pos-management-system</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/products/customer-relationship-management-system</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/contact-us</loc><priority>0.8</priority></url>
+  <url><loc>https://infogenx.com.au/careers</loc><priority>0.5</priority></url>
+  <url><loc>https://infogenx.com.au/privacy-policy</loc><priority>0.3</priority></url>
+  <url><loc>https://infogenx.com.au/terms-conditions</loc><priority>0.3</priority></url>
 </urlset>
