@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollTop/ScrollToTop";
 import GtmPageViewTracker from "./components/analytics/GtmPageViewTracker";
-import RouteSeo from "./components/seo/RouteSeo";
+import RouteSeo from "./components/SEO/RouteSeo";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
