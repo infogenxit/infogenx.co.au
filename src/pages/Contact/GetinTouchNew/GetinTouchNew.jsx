@@ -107,7 +107,7 @@ const GetinTouch = () => {
       };
 
       addField("zf_referrer_name", typeof document !== "undefined" ? document.referrer || "" : "");
-      addField("zf_redirect_url", "https://infogenx.com/contact-us");
+      addField("zf_redirect_url", `${process.env.REACT_APP_SITE_URL || "https://infogenx.com.au"}/contact-us`);
       addField("zc_gad", "");
 
       const fullName = formData.lastName.trim();
@@ -153,7 +153,7 @@ const GetinTouch = () => {
       });
       setShowThankYou(true);
     } catch (error) {
-      error(error);
+      console.error(error);
       alert("Submission failed");
     } finally {
       setIsSubmitting(false);
