@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../../../components/header/Header";
-import AppDevHero from "../../../components/Solutions/DataAnalytics/DataAnalyticsHero/DataAnalyticsHero";
-import AppDevExpertise from "../../../components/Solutions/DataAnalytics/DataAnalyticsExpertise/DataAnalyticsExpertise";
-import AppDevApproach from "../../../components/Solutions/DataAnalytics/DataAnalyticsApproach/DataAnalyticsApproach";
-import AppDevBusinessImpact from "../../../components/Solutions/DataAnalytics/DataAnalyticsBusinessImpact/DataAnalyticsBusinessImpact";
-import AppDevImpactCTA from "../../../components/Solutions/DataAnalytics/DataAnalyticsImpactCTA/DataAnalyticsImpactCTA";
+import AppDevHero from "../../../components/Solutions/DataAnalyticsAI/DataAnalyticsHero/DataAnalyticsHero";
+import AppDevExpertise from "../../../components/Solutions/DataAnalyticsAI/DataAnalyticsExpertise/DataAnalyticsExpertise";
+import AppDevApproach from "../../../components/Solutions/DataAnalyticsAI/DataAnalyticsApproach/DataAnalyticsApproach";
+import AppDevBusinessImpact from "../../../components/Solutions/DataAnalyticsAI/DataAnalyticsBusinessImpact/DataAnalyticsBusinessImpact";
+import AppDevImpactCTA from "../../../components/Solutions/DataAnalyticsAI/DataAnalyticsImpactCTA/DataAnalyticsImpactCTA";
 import Footer from "../../../components/Footer/Footer";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
