@@ -1,30 +1,30 @@
 import PortfolioVideo from "../../assets/videos/portfolio.mp4";
-import AboutCornerAccent from "../../assets/images/about-corner-accent.png";
+import AboutCornerAccent from "../../assets/images/about-corner-accent.webp";
 import Header from "../../components/header/Header";
 import Footer from "../../components/Footer/Footer";
 import { useState } from "react";
 import "./Portfolio.css";
-import AppImg1 from "../../assets/images/infogenx-application-images-1.png";
-import AppImg2 from "../../assets/images/infogenx-application-images-2.png";
-import AppImg3 from "../../assets/images/infogenx-application-images-3.png";
-import AppImg4 from "../../assets/images/infogenx-application-images-4.png";
-import AppImg5 from "../../assets/images/infogenx-application-images-5.png";
-import AppImg6 from "../../assets/images/infogenx-application-images-6.png";
-import AppImg7 from "../../assets/images/infogenx-application-images-7.png";
-import AppImg8 from "../../assets/images/infogenx-application-images-8.png";
-import AppImg9 from "../../assets/images/infogenx-application-images-9.png";
-import WebImg1 from "../../assets/images/infogenx-website-images-1.png";
-import WebImg2 from "../../assets/images/infogenx-website-images-2.png";
-import WebImg3 from "../../assets/images/infogenx-website-images-3.png";
-import WebImg4 from "../../assets/images/infogenx-website-images-4.png";
-import WebImg5 from "../../assets/images/infogenx-website-images-5.png";
-import WebImg6 from "../../assets/images/infogenx-website-images-6.png";
-import WebImg7 from "../../assets/images/infogenx-website-images-7.png";
-import LogoImg1 from "../../assets/images/infogenx-logos-images-1.png";
-import LogoImg2 from "../../assets/images/infogenx-logos-images-2.png";
-import LogoImg3 from "../../assets/images/infogenx-logos-images-3.png";
-import LogoImg4 from "../../assets/images/infogenx-logos-images-4.png";
-import LogoImg5 from "../../assets/images/infogenx-logos-images-5.png";
+import AppImg1 from "../../assets/images/infogenx-application-images-1.webp";
+import AppImg2 from "../../assets/images/infogenx-application-images-2.webp";
+import AppImg3 from "../../assets/images/infogenx-application-images-3.webp";
+import AppImg4 from "../../assets/images/infogenx-application-images-4.webp";
+import AppImg5 from "../../assets/images/infogenx-application-images-5.webp";
+import AppImg6 from "../../assets/images/infogenx-application-images-6.webp";
+import AppImg7 from "../../assets/images/infogenx-application-images-7.webp";
+import AppImg8 from "../../assets/images/infogenx-application-images-8.webp";
+import AppImg9 from "../../assets/images/infogenx-application-images-9.webp";
+import WebImg1 from "../../assets/images/infogenx-website-images-1.webp";
+import WebImg2 from "../../assets/images/infogenx-website-images-2.webp";
+import WebImg3 from "../../assets/images/infogenx-website-images-3.webp";
+import WebImg4 from "../../assets/images/infogenx-website-images-4.webp";
+import WebImg5 from "../../assets/images/infogenx-website-images-5.webp";
+import WebImg6 from "../../assets/images/infogenx-website-images-6.webp";
+import WebImg7 from "../../assets/images/infogenx-website-images-7.webp";
+import LogoImg1 from "../../assets/images/infogenx-logos-images-1.webp";
+import LogoImg2 from "../../assets/images/infogenx-logos-images-2.webp";
+import LogoImg3 from "../../assets/images/infogenx-logos-images-3.webp";
+import LogoImg4 from "../../assets/images/infogenx-logos-images-4.webp";
+import LogoImg5 from "../../assets/images/infogenx-logos-images-5.webp";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../components/SEO/SEO";
 import { useNavigate } from "react-router-dom";
@@ -148,9 +148,9 @@ const Portfolio = () => {
   return (
     <>
       <SEO
-        title="Our Portfolio | Infogenx Projects"
-        description="Discover Infogenx portfolio showcasing our web development, UI/UX design, and software projects delivered to clients across various industries."
-        keywords="Infogenx portfolio, web development projects, full-stack projects, software development work, UI UX portfolio"
+        title="Our Portfolio | Trusted IT Solutions Brisbane"
+        description="Explore our Portfolio of successful IT projects in Brisbane. From custom application development to intelligent automation, see how we help businesses scale."
+        keywords="IT portfolio Brisbane, software projects Australia, digital work showcase, app development portfolio"
       />
       {/* <Helmet>
         <title>Our Portfolio | Infogenx Projects</title>
@@ -175,7 +175,7 @@ const Portfolio = () => {
           {/* LEFT CONTENT */}
 
           <div className="appdev-left">
-            <h1>Explore Our Portfolio of High-Impact Digital Work</h1>
+            <h1>Our Portfolio of Success in Brisbane</h1>
 
             <p>
               Websites, applications, and digital solutions built to combine

@@ -11,7 +11,7 @@ const WebDevHero = () => {
       />
       <div className="WebDev-hero-container">
         <h1 className="WebDev-hero-heading">
-          Cloud Computing Solutions That Power Smarter Business Outcomes
+          Expert Cloud Computing Brisbane in Brisbane
         </h1>
 
         <p className="WebDev-hero-description">

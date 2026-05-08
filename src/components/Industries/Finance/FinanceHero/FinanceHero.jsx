@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Finance Secured Transformed</h1>
+          <h1>Expert Finance IT Solutions Brisbane in Brisbane</h1>
 
           <p>
             Risk analytics and compliance automation for finance Australia –

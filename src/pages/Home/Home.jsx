@@ -13,9 +13,9 @@ const Home = () => {
     <>
       {/* Original title: AI Automation & App Development Company Sydney | Infogenx */}
       <SEO
-        title="AI Automation & App Development Company in Australia | Infogenx"
-        description="Infogenx is a leading AI automation and application development company in Australia. We deliver intelligent apps, workflow automation, and data analytics for Microsoft, Zoho, and Odoo."
-        keywords="AI application development Australia, AI automation company Brisbane, intelligent business automation, app development services Melbourne"
+        title="IT Consulting Brisbane | Trusted Experts & Agency"
+        description="Scale your company with leading IT Consulting Brisbane services. Our expert agency delivers strategic technical advisory, cloud solutions, and infrastructure management for Brisbane businesses."
+        keywords="IT Consulting Brisbane, IT agency Brisbane, technology experts Brisbane, IT strategy Australia"
       />
       {/* <Helmet>
         <title>

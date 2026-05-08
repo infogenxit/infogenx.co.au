@@ -11,9 +11,9 @@ const Transport = () => {
   return (
     <>
       <SEO
-        title="AI Automation for Logistics | InfogenX Australia"
-        description="Optimise transport & logistics with InfogenX's AI solutions in Australia: route optimisation, fleet analytics & intelligent automation for Brisbane & national operations."
-        keywords="AI consulting transport logistics, intelligent automation logistics solutions, digital transformation logistics Australia, fleet management AI Australia, route optimisation automation Brisbane"
+        title="Transport & Logistics IT Solutions Brisbane | Trusted Experts"
+        description="Scale your company with leading Transport & Logistics IT Solutions in Brisbane. Our expert team delivers route optimization, fleet analytics, and automated supply chain intelligence."
+        keywords="Transport & Logistics IT Solutions Brisbane, fleet management Brisbane, logistics software Australia, route optimization automation"
       />
       {/* <Helmet>
         <title>AI Automation for Logistics | InfogenX Australia</title>

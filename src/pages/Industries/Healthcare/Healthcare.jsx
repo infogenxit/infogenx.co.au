@@ -11,9 +11,9 @@ const Healthcare = () => {
   return (
     <>
       <SEO
-        title="AI Automation & AI Consulting for Healthcare Australia"
-        description="Infogenx delivers intelligent automation & AI consulting for Australian healthcare providers – streamline patient care, compliance & analytics. Brisbane-based digital transformation experts."
-        keywords="intelligent automation healthcare, digital transformation healthcare Australia, AI-enabled healthcare solutions, automation analytics healthcare, AI in healthcare Australia, patient management automation Australia"
+        title="Brisbane Healthcare IT Solutions | Trusted Experts"
+        description="Unlock growth with expert Healthcare IT Solutions in Brisbane. Our tailored digital strategies and secure application development empower medical providers to deliver superior patient care through technical innovation."
+        keywords="Brisbane Healthcare IT Solutions, medical IT services Brisbane, healthcare technology Australia, secure medical software"
       />
       {/* <Helmet>
         <title>AI Automation & AI Consulting for Healthcare Australia</title>

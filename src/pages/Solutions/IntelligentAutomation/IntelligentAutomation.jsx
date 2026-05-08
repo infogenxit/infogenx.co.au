@@ -11,8 +11,45 @@ import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../components/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../components/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../components/Common/RelatedServices/RelatedServices";
+import ServiceDetailedContent from "../../../components/Common/ServiceDetailedContent/ServiceDetailedContent";
 
 const IntelligentAutomation = () => {
+  const automationContent = [
+    {
+      heading: "Orchestrating Business Success with Intelligent Automation",
+      content: [
+        "In the modern Australian business environment, efficiency is the currency of growth. Intelligent Automation (IA) is the catalyst that allows organizations to break free from the constraints of manual, repetitive tasks and focus their human capital on high-value, strategic initiatives. At Infogenx, we specialize in building the 'digital nervous system' for your business, connecting disparate applications and orchestrating complex workflows with AI-driven precision.",
+        "Whether you are a logistics provider in Melbourne or a healthcare organization in Sydney, our automation solutions are designed to reduce operational friction, eliminate human error, and provide the scalability needed to handle increasing volumes without increasing headcount."
+      ]
+    },
+    {
+      heading: "Beyond Basic RPA: The Infogenx Intelligence Layer",
+      content: [
+        "While traditional Robotic Process Automation (RPA) handles simple 'if-this-then-that' scenarios, Infogenx introduces an intelligence layer that allows for cognitive decision-making within your workflows."
+      ],
+      list: [
+        { label: "Cognitive Document Processing", text: "Automatically extract, classify, and validate data from invoices, contracts, and IDs using AI-powered OCR, reducing processing times from days to seconds." },
+        { label: "Predictive Workflow Triggers", text: "Systems that don't just react to data but predict when intervention is needed, triggering alerts or automated actions before a problem becomes a crisis." },
+        { label: "Seamless Ecosystem Integration", text: "We bridge the gap between your CRM, ERP, and communication tools, ensuring data flows naturally across Microsoft 365, Zoho, Odoo, and custom platforms." }
+      ]
+    },
+    {
+      heading: "High-Impact Automation Use Cases",
+      content: [
+        "Every industry has unique challenges, and our automation experts are skilled at identifying the specific areas where IA can provide the greatest return on investment.",
+        "In Finance and Accounting, we automate end-to-end accounts payable processes, from invoice receipt to payment reconciliation, ensuring 100% audit accuracy. In Supply Chain and Logistics, we orchestrate real-time inventory updates and automated shipping notifications, improving customer satisfaction and reducing manual tracking.",
+        "For Customer Service departments, we deploy intelligent chatbots and automated ticketing systems that handle routine inquiries instantly, leaving your agents to solve complex problems that require empathy and advanced reasoning."
+      ]
+    },
+    {
+      heading: "Scaling with Confidence: Governance and Security",
+      content: [
+        "We understand that as you automate more of your business, security and governance become paramount. Our automation frameworks are built with 'security-by-design' principles, ensuring that every automated agent and workflow operates within your organization’s strict compliance and privacy boundaries.",
+        "We provide comprehensive dashboards that allow you to monitor the performance and impact of your automated ecosystem in real-time, giving you total visibility and control over your digital workforce."
+      ]
+    }
+  ];
+
   const faqData = [
     {
       question: "What is Intelligent Automation?",
@@ -52,6 +89,11 @@ const IntelligentAutomation = () => {
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
+      <ServiceDetailedContent 
+        title="AI-Driven Workflow Orchestration & Efficiency" 
+        subtitle="Automate to Innovate"
+        sections={automationContent} 
+      />
       <AppDevApproach />
       <AppDevBusinessImpact />
       <AppDevImpactCTA />

@@ -11,9 +11,9 @@ const Finance = () => {
   return (
     <>
       <SEO
-        title="AI Consulting for Finance Australia | Infogenx"
-        description="Secure AI-enabled business solutions for the Australian finance sector by InfogenX: risk analytics, automation & digital transformation tailored for compliance & growth."
-        keywords="intelligent automation finance, digital transformation finance Australia, AI-enabled risk analytics, fraud detection automation Australia, financial analytics consulting Brisbane"
+        title="Finance IT Solutions Brisbane | Trusted Experts"
+        description="Scale your company with leading Finance IT Solutions in Brisbane. Our expert team delivers secure, compliant, and innovative digital transformation tailored for the Australian financial sector."
+        keywords="Finance IT Solutions Brisbane, financial technology Brisbane, fintech Australia, secure banking software"
       />
       {/* <Helmet>
         <title>AI Consulting for Finance Australia | Infogenx</title>

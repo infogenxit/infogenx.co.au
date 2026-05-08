@@ -11,9 +11,9 @@ const Retail = () => {
   return (
     <>
       <SEO
-        title="AI automation retail Australia | AI Solutions by InfogenX Australia"
-        description="best AI solutions for retail Australia, Transform retail with InfogenX's AI-enabled solutions in Australia: inventory automation, customer analytics & personalised experiences. Local expertise for scalable growth."
-        keywords="AI consulting retail, intelligent automation retail solutions, digital transformation retail Australia, AI-enabled inventory management, customer analytics automation Australia, platform-focused retail AI"
+        title="Brisbane Retail IT Solutions | Trusted Experts"
+        description="Scale your company with leading Retail IT Solutions in Brisbane. Our expert team delivers powerful POS systems, inventory automation, and customer analytics to drive growth."
+        keywords="Brisbane Retail IT Solutions, retail technology Brisbane, POS systems Australia, inventory management automation"
       />
       {/* <Helmet>
         <title>

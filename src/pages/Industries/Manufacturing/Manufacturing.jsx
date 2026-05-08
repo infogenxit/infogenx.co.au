@@ -11,9 +11,9 @@ const Manufacturing = () => {
   return (
     <>
       <SEO
-        title="AI in Manufacturing Australia | InfogenX Australia"
-        description="Intelligent automation for Australian manufacturers by InfogenX: predictive maintenance, supply chain AI & analytics consulting for efficiency gains."
-        keywords="intelligent automation manufacturing, digital transformation manufacturing Australia, AI-enabled production solutions, predictive maintenance automation Australia, supply chain AI consulting"
+        title="Manufacturing IT Solutions Brisbane | Trusted Experts"
+        description="Scale your company with leading Manufacturing IT Solutions in Brisbane. Our expert team delivers predictive maintenance, supply chain automation, and data-driven production optimization."
+        keywords="Manufacturing IT Solutions Brisbane, industrial technology Brisbane, smart manufacturing Australia, supply chain automation"
       />
       {/* <Helmet>
         <title>AI in Manufacturing Australia | InfogenX Australia</title>

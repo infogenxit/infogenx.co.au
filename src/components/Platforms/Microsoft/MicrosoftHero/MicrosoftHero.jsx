@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Microsoft Excellence Delivered</h1>
+          <h1>Expert Microsoft Dynamics 365 Brisbane in Brisbane</h1>
 
           <p>
             Microsoft Power Platform automation, Azure AI solutions, and

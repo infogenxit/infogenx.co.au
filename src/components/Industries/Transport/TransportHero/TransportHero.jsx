@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Logistics Optimised Fast</h1>
+          <h1>Expert Transport & Logistics IT Solutions Brisbane in Brisbane</h1>
 
           <p>
             Route optimisation and fleet automation for transport logistics

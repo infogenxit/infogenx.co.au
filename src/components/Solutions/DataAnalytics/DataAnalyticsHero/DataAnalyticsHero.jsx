@@ -24,7 +24,7 @@ const AppDevHero = () => {
 
         <div className="appdev-left">
           {/* <h1>Decide with Confidence</h1> */}
-          <h1>Data Analytics & AI Solutions Australia | Intelligent Business Insights</h1>
+          <h1>Expert Business Intelligence Brisbane in Brisbane</h1>
 
           <p>
             Turn connected data into clear insight, predictive intelligence, and

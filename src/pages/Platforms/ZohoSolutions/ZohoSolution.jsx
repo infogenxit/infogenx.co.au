@@ -12,9 +12,9 @@ const ZohoSolution = () => {
   return (
     <>
       <SEO
-        title="Zoho Consulting, Automation & Analytics | Infogenx Australia"
-        description="Infogenx helps businesses implement, customize, and optimize Zoho solutions for CRM, automation, analytics, and operational efficiency."
-        keywords="Zoho consulting Australia, Zoho CRM automation, Zoho Analytics"
+        title="Zoho Consultant Brisbane | Trusted Experts & Agency"
+        description="Looking for professional Zoho Consultant Brisbane? Our experts deliver seamless implementation, customization, and automation to scale your business with the Zoho ecosystem."
+        keywords="Zoho Consultant Brisbane, Zoho CRM Brisbane, Zoho implementation Australia, Zoho automation experts"
       />
       {/* <Helmet>
         <title>

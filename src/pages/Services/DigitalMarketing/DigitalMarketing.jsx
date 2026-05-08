@@ -10,8 +10,44 @@ import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../components/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../components/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../components/Common/RelatedServices/RelatedServices";
+import ServiceDetailedContent from "../../../components/Common/ServiceDetailedContent/ServiceDetailedContent";
 
 const DigitalMarketing = () => {
+  const marketingContent = [
+    {
+      heading: "Elevating Your Brand in the Australian Digital Landscape",
+      content: [
+        "In an increasingly crowded digital marketplace, having a great product or service is only half the battle. To truly thrive, you must be visible to the right audience, at the right time, with the right message. At Infogenx, we provide high-impact Digital Marketing solutions designed to cut through the noise and drive measurable growth for Australian businesses. We move beyond vanity metrics like 'likes' and 'followers,' focusing instead on lead generation, conversion, and long-term brand equity.",
+        "Our marketing strategies are rooted in data and powered by creativity. Whether you are a local Brisbane business looking to dominate your regional market or an Australian enterprise aiming for global reach, we provide the technical expertise and strategic insight needed to optimize your online presence and maximize your marketing ROI."
+      ]
+    },
+    {
+      heading: "Our Core Marketing Capabilities",
+      content: [
+        "We take a holistic approach to digital marketing, ensuring that every channel and campaign works in harmony to support your broader business objectives."
+      ],
+      list: [
+        { label: "Search Engine Optimization (SEO)", text: "Dominate search results with our technical, on-page, and content-driven SEO strategies that drive high-intent organic traffic to your site." },
+        { label: "Performance Marketing & PPC", text: "Maximize your advertising spend with highly targeted campaigns across Google Ads, LinkedIn, and Meta, focused on lead quality and conversion cost." },
+        { label: "Content Strategy & Storytelling", text: "We build brand authority through compelling, keyword-rich content that resonates with your audience and establishes your organization as a thought leader." }
+      ]
+    },
+    {
+      heading: "Data-Driven Growth: The Infogenx Methodology",
+      content: [
+        "We believe that what gets measured, gets improved. Our marketing methodology is built on a foundation of rigorous data analysis and continuous optimization. We use advanced tracking and attribution models to understand the entire customer journey, identifying which channels and messages are driving the most value for your business.",
+        "By continuously testing and refining our approach—from A/B testing landing pages to optimizing ad copy—we ensure that your marketing budget is always working its hardest. We provide transparent, decision-grade reporting that shows exactly how our efforts are impacting your bottom line, allowing you to scale with confidence."
+      ]
+    },
+    {
+      heading: "Beyond Clicks: Focusing on Conversion and ROI",
+      content: [
+        "At Infogenx, our ultimate goal is not just to drive traffic, but to drive revenue. We focus heavily on Conversion Rate Optimization (CRO), ensuring that the traffic we generate is funneled into a seamless, high-converting user experience. We analyze user behavior, identify friction points in your sales funnel, and implement changes that turn visitors into loyal customers.",
+        "Our strategic content and social framework ensures that your brand voice remains consistent and impactful across every touchpoint, building the trust and credibility necessary to win in the modern Australian digital economy. We are your partners in growth, committed to delivering marketing excellence that lasts."
+      ]
+    }
+  ];
+
   const faqs = [
     {
       question: "What digital marketing services do you offer?",
@@ -52,6 +88,10 @@ const DigitalMarketing = () => {
       link: "/services/managed-services"
     }
   ];
+  const breadcrumbItems = [
+    { name: "Services", path: "/services/managed-services" },
+    { name: "Digital Marketing", path: "/services/digital-marketing" }
+  ];
   return (
     <>
       <SEO
@@ -71,9 +111,14 @@ const DigitalMarketing = () => {
         />
       </Helmet> */}
       <Header />
-      <Breadcrumbs />
+      <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
+      <ServiceDetailedContent 
+        title="Data-Powered Growth & Brand Authority" 
+        subtitle="Marketing Excellence"
+        sections={marketingContent} 
+      />
       <AppDevApproach />
       <AppDevBusinessImpact />
       <AppDevImpactCTA />

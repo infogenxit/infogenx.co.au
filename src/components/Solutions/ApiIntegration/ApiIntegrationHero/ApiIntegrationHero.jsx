@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Unify Systems. Unlock Flow.</h1>
+          <h1>Expert API Integration Brisbane in Brisbane</h1>
 
           <p>
             Connect platforms, streamline data movement, and enable smarter operations through scalable, API-led integration.

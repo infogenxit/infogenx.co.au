@@ -12,9 +12,9 @@ const MicrosoftSolution = () => {
   return (
     <>
       <SEO
-        title="Microsoft Consulting & Power Platform Solutions | Infogenx"
-        description="Unlock the full value of Microsoft 365, Power Platform, Azure Data & AI, and Dynamics with Infogenx’s consulting and implementation services."
-        keywords="Microsoft consulting Australia, Power Platform automation, Azure data AI"
+        title="Microsoft Dynamics 365 Brisbane | Trusted Experts"
+        description="Scale your company with leading Microsoft Dynamics 365 solutions in Brisbane. Our certified experts deliver powerful ERP and CRM transformations tailored for Australian enterprises."
+        keywords="Microsoft Dynamics 365 Brisbane, Microsoft Dynamics partner Brisbane, Power Platform Brisbane, Azure solutions Australia"
       />
       {/* <Helmet>
         <title>Microsoft Consulting & Power Platform Solutions | Infogenx</title>

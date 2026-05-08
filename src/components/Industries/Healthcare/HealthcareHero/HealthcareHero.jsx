@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Healthcare Transformation Now</h1>
+          <h1>Expert Brisbane Healthcare IT Solutions in Brisbane</h1>
 
           <p>
             Intelligent automation for healthcare Australia – patient workflow

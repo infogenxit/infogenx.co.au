@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Retail Growth Accelerated</h1>
+          <h1>Expert Brisbane Retail IT Solutions in Brisbane</h1>
 
           <p>
             AI-enabled inventory and customer analytics for retail Australia –

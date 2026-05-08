@@ -23,7 +23,7 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Manufacturing Efficiency Boosted</h1>
+          <h1>Expert Manufacturing IT Solutions Brisbane in Brisbane</h1>
 
           <p>
             Predictive maintenance and supply chain automation for manufacturing
