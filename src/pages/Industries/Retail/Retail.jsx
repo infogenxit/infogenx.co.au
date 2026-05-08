@@ -10,10 +10,18 @@ import SEO from "../../../components/SEO/SEO";
 const Retail = () => {
   return (
     <>
+      {/* 
+        PREVIOUS SEO (COMMENTED OUT):
+        <SEO
+          title="Brisbane Retail IT Solutions | Trusted Experts"
+          description="Scale your company with leading Retail IT Solutions in Brisbane. Our expert team delivers powerful POS systems, inventory automation, and customer analytics to drive growth."
+          keywords="Brisbane Retail IT Solutions, retail technology Brisbane, POS systems Australia, inventory management automation"
+        />
+      */}
       <SEO
-        title="Brisbane Retail IT Solutions | Trusted Experts"
-        description="Scale your company with leading Retail IT Solutions in Brisbane. Our expert team delivers powerful POS systems, inventory automation, and customer analytics to drive growth."
-        keywords="Brisbane Retail IT Solutions, retail technology Brisbane, POS systems Australia, inventory management automation"
+        title="Retail IT Solutions Brisbane | Infogenx"
+        description="Bridging the gap between physical and digital storefronts with scalable retail IT solutions in Brisbane. We help businesses unify inventory and automate operations."
+        keywords="retail IT solutions Brisbane, inventory automation, e-commerce integration, retail technology Australia, Infogenx"
       />
       {/* <Helmet>
         <title>

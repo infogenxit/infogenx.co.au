@@ -11,10 +11,18 @@ import SEO from "../../../components/SEO/SEO";
 const MicrosoftSolution = () => {
   return (
     <>
+      {/* 
+        PREVIOUS SEO (COMMENTED OUT):
+        <SEO
+          title="Microsoft Dynamics 365 Brisbane | Trusted Experts"
+          description="Scale your company with leading Microsoft Dynamics 365 solutions in Brisbane. Our certified experts deliver powerful ERP and CRM transformations tailored for Australian enterprises."
+          keywords="Microsoft Dynamics 365 Brisbane, Microsoft Dynamics partner Brisbane, Power Platform Brisbane, Azure solutions Australia"
+        />
+      */}
       <SEO
-        title="Microsoft Dynamics 365 Brisbane | Trusted Experts"
-        description="Scale your company with leading Microsoft Dynamics 365 solutions in Brisbane. Our certified experts deliver powerful ERP and CRM transformations tailored for Australian enterprises."
-        keywords="Microsoft Dynamics 365 Brisbane, Microsoft Dynamics partner Brisbane, Power Platform Brisbane, Azure solutions Australia"
+        title="Trusted Microsoft Partner in Brisbane"
+        description="Certified Microsoft partner in Brisbane specializing in Dynamics 365, Power BI, and Microsoft Cloud solutions for scalable growth."
+        keywords="Microsoft partner Brisbane, Dynamics 365 Brisbane, Power BI consulting, Microsoft Cloud solutions, Infogenx"
       />
       {/* <Helmet>
         <title>Microsoft Consulting & Power Platform Solutions | Infogenx</title>

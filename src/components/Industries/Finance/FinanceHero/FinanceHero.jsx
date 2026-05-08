@@ -23,11 +23,13 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Expert Finance IT Solutions Brisbane in Brisbane</h1>
+          {/* <h1>Expert Finance IT Solutions Brisbane in Brisbane</h1> */}
+          <h1>Finance IT Solutions: Secure, Compliant, and Automated</h1>
 
           <p>
-            Risk analytics and compliance automation for finance Australia –
-            secure AI solutions on Microsoft Azure or Dynamics platforms.
+            {/* Risk analytics and compliance automation for finance Australia –
+            secure AI solutions on Microsoft Azure or Dynamics platforms. */}
+            Automating workflows, enhancing data security, and ensuring compliance with intelligent IT solutions tailored for the finance sector.
           </p>
 
           <div className="appdev-buttons">

@@ -23,10 +23,12 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Expert Zoho Consultant Brisbane in Brisbane to Scale Your Business</h1>
+          {/* <h1>Expert Zoho Consultant Brisbane in Brisbane to Scale Your Business</h1> */}
+          <h1>Your Trusted Zoho Consultant in Brisbane</h1>
 
           <p>
-            Your Trusted Zoho Consultant in Brisbane — Built Around How Your Business Actually Works. Custom implementation, workflow automation, and analytics engineering for growing Australian businesses.
+            {/* Your Trusted Zoho Consultant in Brisbane — Built Around How Your Business Actually Works. Custom implementation, workflow automation, and analytics engineering for growing Australian businesses. */}
+            Built Around How Your Business Actually Works. Move beyond the "out-of-the-box" setup to create a system that truly reflects your business operations.
           </p>
 
           <div className="appdev-buttons">

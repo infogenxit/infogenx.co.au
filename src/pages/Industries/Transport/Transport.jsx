@@ -10,10 +10,18 @@ import SEO from "../../../components/SEO/SEO";
 const Transport = () => {
   return (
     <>
+      {/* 
+        PREVIOUS SEO (COMMENTED OUT):
+        <SEO
+          title="Transport & Logistics IT Solutions Brisbane | Trusted Experts"
+          description="Scale your company with leading Transport & Logistics IT Solutions in Brisbane. Our expert team delivers route optimization, fleet analytics, and automated supply chain intelligence."
+          keywords="Transport & Logistics IT Solutions Brisbane, fleet management Brisbane, logistics software Australia, route optimization automation"
+        />
+      */}
       <SEO
-        title="Transport & Logistics IT Solutions Brisbane | Trusted Experts"
-        description="Scale your company with leading Transport & Logistics IT Solutions in Brisbane. Our expert team delivers route optimization, fleet analytics, and automated supply chain intelligence."
-        keywords="Transport & Logistics IT Solutions Brisbane, fleet management Brisbane, logistics software Australia, route optimization automation"
+        title="Transport & Logistics IT Solutions Brisbane | Infogenx"
+        description="Streamline supply chains with transport and logistics IT solutions in Brisbane. We provide route optimization, fleet tracking, and real-time visibility."
+        keywords="transport IT solutions Brisbane, logistics technology, fleet management, supply chain optimization, Infogenx"
       />
       {/* <Helmet>
         <title>AI Automation for Logistics | InfogenX Australia</title>

@@ -23,13 +23,15 @@ const Hero = () => {
       {/* <NetworkBackground /> */}
       <div className="hero-container">
         <h1 className="hero-heading">
-          <span>Expert IT Consulting Brisbane in Brisbane to Scale Your Business</span>
+          {/* <span>Expert IT Consulting Brisbane in Brisbane to Scale Your Business</span> */}
+          <span>IT Consulting in Brisbane: Future-Driven Technology Solutions by Infogenx</span>
         </h1>   
 
         <h2 className="hero-subheading">
           {/* AI-enabled applications, automation, and analytics for{" "}
           <span>Microsoft, Zoho, and Odoo—engineered</span> for growth, governance, and real business impact. */}
-          Engineered for growth: AI-enabled applications, intelligent automation, and data analytics for <span>Microsoft, Zoho, and Odoo</span> ecosystem.
+          {/* Engineered for growth: AI-enabled applications, intelligent automation, and data analytics for <span>Microsoft, Zoho, and Odoo</span> ecosystem. */}
+          We partner with local, mid-market, and emerging businesses to find solutions to operational problems by leveraging smart, future-focused technology.
         </h2>
 
         {/* <p className="hero-description">

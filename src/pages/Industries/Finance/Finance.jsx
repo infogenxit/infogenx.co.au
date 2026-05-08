@@ -10,10 +10,18 @@ import SEO from "../../../components/SEO/SEO";
 const Finance = () => {
   return (
     <>
+      {/* 
+        PREVIOUS SEO (COMMENTED OUT):
+        <SEO
+          title="Finance IT Solutions Brisbane | Trusted Experts"
+          description="Scale your company with leading Finance IT Solutions in Brisbane. Our expert team delivers secure, compliant, and innovative digital transformation tailored for the Australian financial sector."
+          keywords="Finance IT Solutions Brisbane, financial technology Brisbane, fintech Australia, secure banking software"
+        />
+      */}
       <SEO
-        title="Finance IT Solutions Brisbane | Trusted Experts"
-        description="Scale your company with leading Finance IT Solutions in Brisbane. Our expert team delivers secure, compliant, and innovative digital transformation tailored for the Australian financial sector."
-        keywords="Finance IT Solutions Brisbane, financial technology Brisbane, fintech Australia, secure banking software"
+        title="Finance IT Solutions Brisbane | Infogenx"
+        description="Secure and compliant finance IT solutions in Brisbane. We help financial institutions automate workflows and enhance data security through intelligent technology."
+        keywords="finance IT solutions Brisbane, financial automation, fintech solutions Australia, data security finance, Infogenx"
       />
       {/* <Helmet>
         <title>AI Consulting for Finance Australia | Infogenx</title>

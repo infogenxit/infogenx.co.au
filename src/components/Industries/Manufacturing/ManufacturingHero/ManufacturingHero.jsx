@@ -23,11 +23,13 @@ const AppDevHero = () => {
         {/* LEFT CONTENT */}
 
         <div className="appdev-left">
-          <h1>Expert Manufacturing IT Solutions Brisbane in Brisbane</h1>
+          {/* <h1>Expert Manufacturing IT Solutions Brisbane in Brisbane</h1> */}
+          <h1>Manufacturing IT Solutions: Operational Efficiency & Real-Time Data</h1>
 
           <p>
-            Predictive maintenance and supply chain automation for manufacturing
-            Australia – Odoo ERP and AI insights tailored to local operations.
+            {/* Predictive maintenance and supply chain automation for manufacturing
+            Australia – Odoo ERP and AI insights tailored to local operations. */}
+            Focusing on operational efficiency, system integration, and real-time data visibility on the factory floor.
           </p>
 
           <div className="appdev-buttons">

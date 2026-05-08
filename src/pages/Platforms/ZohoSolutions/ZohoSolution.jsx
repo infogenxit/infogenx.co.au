@@ -11,10 +11,18 @@ import SEO from "../../../components/SEO/SEO";
 const ZohoSolution = () => {
   return (
     <>
+      {/* 
+        PREVIOUS SEO (COMMENTED OUT):
+        <SEO
+          title="Zoho Consultant Brisbane | Trusted Experts & Agency"
+          description="Looking for professional Zoho Consultant Brisbane? Our experts deliver seamless implementation, customization, and automation to scale your business with the Zoho ecosystem."
+          keywords="Zoho Consultant Brisbane, Zoho CRM Brisbane, Zoho implementation Australia, Zoho automation experts"
+        />
+      */}
       <SEO
-        title="Zoho Consultant Brisbane | Trusted Experts & Agency"
-        description="Looking for professional Zoho Consultant Brisbane? Our experts deliver seamless implementation, customization, and automation to scale your business with the Zoho ecosystem."
-        keywords="Zoho Consultant Brisbane, Zoho CRM Brisbane, Zoho implementation Australia, Zoho automation experts"
+        title="Your Trusted Zoho Consultant in Brisbane — Built Around How Your Business Actually Works"
+        description="Expert Zoho consulting in Brisbane. We help you customize and optimize Zoho CRM, Zoho One, and Zoho Analytics to solve real operational gaps."
+        keywords="Zoho consultant Brisbane, Zoho CRM implementation, Zoho One expert, Zoho automation, Infogenx"
       />
       {/* <Helmet>
         <title>
