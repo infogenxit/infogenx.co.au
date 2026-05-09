@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../../../sections/header/Header";
 import AppDevHero from "../../../sections/Solutions/ModernApplication/ModernApplicationHero/ModernApplicationHero";
 import AppDevExpertise from "../../../sections/Solutions/ModernApplication/ModernApplicationExpertise/ModernApplicationExpertise";
 import AppDevApproach from "../../../sections/Solutions/ModernApplication/ModernApplicationApproach/ModernApplicationApproach";
 import AppDevBusinessImpact from "../../../sections/Solutions/ModernApplication/ModernApplicationBusinessImpact/ModernApplicationBusinessImpact";
 import AppDevImpactCTA from "../../../sections/Solutions/ModernApplication/ModernApplicationImpactCTA/ModernApplicationImpactCTA";
-import Footer from "../../../sections/Footer/Footer";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
@@ -112,7 +110,6 @@ const ModernApplication = () => {
           content="application development Australia, cloud-native applications, custom software engineering"
         />
       </Helmet> */}
-      <Header />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
@@ -126,7 +123,6 @@ const ModernApplication = () => {
       <AppDevImpactCTA />
       <ServiceFaq faqs={faqs} />
       <RelatedServices items={relatedItems} />
-      <Footer />
     </>
   );
 };

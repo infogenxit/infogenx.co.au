@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../../../sections/header/Header";
 import AppDevHero from "../../../sections/Solutions/IntelligentAutomation/IntelligentAutomationHero/IntelligentAutomationHero";
 import AppDevExpertise from "../../../sections/Solutions/IntelligentAutomation/IntelligentAutomationExpertise/IntelligentAutomationExpertise";
 import AppDevApproach from "../../../sections/Solutions/IntelligentAutomation/IntelligentAutomationApproach/IntelligentAutomationApproach";
 import AppDevBusinessImpact from "../../../sections/Solutions/IntelligentAutomation/IntelligentAutomationBusinessImpact/IntelligentAutomationBusinessImpact";
 import AppDevImpactCTA from "../../../sections/Solutions/IntelligentAutomation/IntelligentAutomationImpactCTA/IntelligentAutomationImpactCTA";
-import Footer from "../../../sections/Footer/Footer";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
@@ -85,7 +83,6 @@ const IntelligentAutomation = () => {
         description="Streamline your business with AI-driven intelligent automation in Australia. Infogenx builds scalable workflow solutions for Microsoft, Zoho, and Odoo to reduce manual complexity."
         keywords="intelligent automation Australia, AI workflow orchestration, business process automation"
       />
-      <Header />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
@@ -99,7 +96,6 @@ const IntelligentAutomation = () => {
       <AppDevImpactCTA />
       <ServiceFaq faqs={faqData} />
       <RelatedServices currentService="/solutions/intelligent-automation" />
-      <Footer />
     </>
   );
 };

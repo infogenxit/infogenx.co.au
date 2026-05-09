@@ -1,10 +1,8 @@
-import Header from "../../../sections/header/Header";
 import AppDevHero from "../../../sections/Solutions/ApiIntegration/ApiIntegrationHero/ApiIntegrationHero";
 import AppDevExpertise from "../../../sections/Solutions/ApiIntegration/ApiIntegrationExpertise/ApiIntegrationExpertise";
 import AppDevApproach from "../../../sections/Solutions/ApiIntegration/ApiIntegrationApproach/ApiIntegrationApproach";
 import AppDevBusinessImpact from "../../../sections/Solutions/ApiIntegration/ApiIntegrationBusinessImpact/ApiIntegrationBusinessImpact";
 import AppDevImpactCTA from "../../../sections/Solutions/ApiIntegration/ApiIntegrationImpactCTA/ApiIntegrationImpactCTA";
-import Footer from "../../../sections/Footer/Footer";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
@@ -111,7 +109,6 @@ const ApiIntegration = () => {
           content="system integration services, API integration Australia, enterprise integration"
         />
       </Helmet> */}
-      <Header />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
@@ -125,7 +122,6 @@ const ApiIntegration = () => {
       <AppDevImpactCTA />
       <ServiceFaq faqs={faqs} />
       <RelatedServices items={relatedItems} />
-      <Footer />
     </>
   );
 };

@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../../../sections/header/Header";
 import AppDevHero from "../../../sections/Solutions/DataAnalyticsAI/DataAnalyticsHero/DataAnalyticsHero";
 import AppDevExpertise from "../../../sections/Solutions/DataAnalyticsAI/DataAnalyticsExpertise/DataAnalyticsExpertise";
 import AppDevApproach from "../../../sections/Solutions/DataAnalyticsAI/DataAnalyticsApproach/DataAnalyticsApproach";
 import AppDevBusinessImpact from "../../../sections/Solutions/DataAnalyticsAI/DataAnalyticsBusinessImpact/DataAnalyticsBusinessImpact";
 import AppDevImpactCTA from "../../../sections/Solutions/DataAnalyticsAI/DataAnalyticsImpactCTA/DataAnalyticsImpactCTA";
-import Footer from "../../../sections/Footer/Footer";
 import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
@@ -114,7 +112,6 @@ const DataAnalyticsAI = () => {
           content="data analytics consulting Australia, AI consulting, analytics engineering"
         />
       </Helmet> */}
-      <Header />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
@@ -128,7 +125,6 @@ const DataAnalyticsAI = () => {
       <AppDevImpactCTA />
       <ServiceFaq faqs={faqs} />
       <RelatedServices items={relatedItems} />
-      <Footer />
     </>
   );
 };
