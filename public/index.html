@@ -9,7 +9,7 @@
     <meta name="fragment" content="!">
     
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://infogenx.com.au/" />
+    <link rel="canonical" href="https://infogenx.com.au/" data-rh="true" />
     
     <!-- Hreflang for Multi-region targeting -->
     <link rel="alternate" hreflang="en-au" href="https://infogenx.com.au/" />
@@ -109,11 +109,11 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     
-    <!-- RESTORED CODE: Manual SalesIQ Widget (ACTIVE) -->
-    <!-- <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script>
-    <script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siqa808627325bae8eccbe91fe6fb2d4574e87e6fc7712c2cb2013ae02c7a10bb1b" defer></script> -->
-
-    <!-- CURRENT SYNC CODE: App.js Dynamic Loading (Commented) -->
-    <!-- SalesIQ is now handled via REACT_APP_ZOHO_SALESIQ_WIDGET_CODE in .env and App.js -->
+    <!-- 
+      ZOHO SALESIQ INTEGRATION:
+      The SalesIQ chat widget is loaded dynamically within App.js to ensure 
+      interaction-first lazy loading for performance optimization.
+      The widget code is managed via environment variables (REACT_APP_ZOHO_SALESIQ_WIDGET_CODE).
+    -->
   </body>
 </html>

@@ -34,6 +34,7 @@ import ModernApplication from "./pages/Solutions/ModernApplication/ModernApplica
 import MicrosoftSolution from "./pages/Platforms/MicrosoftSolutions/MicrosoftSolution";
 import ZohoSolution from "./pages/Platforms/ZohoSolutions/ZohoSolution";
 import OdooSolution from "./pages/Platforms/OdooSolutions/OdooSolution";
+import ShopifySolution from "./pages/Platforms/Shopify/Shopify";
 
 import CaseStudies from "./pages/Insights/CaseStudies/CaseStudies";
 import IgxStock from "./pages/Products/IGXStock/IgxStock";
@@ -53,7 +54,7 @@ function App() {
   useEffect(() => {
     const widgetCode = process.env.REACT_APP_ZOHO_SALESIQ_WIDGET_CODE;
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-
+    
     if (!widgetCode || isLocalhost) return;
 
     /* PREVIOUS (eager load — caused Googlebot XHR block in Search Console):
@@ -88,7 +89,6 @@ function App() {
     };
 
     events.forEach(e => window.addEventListener(e, handleInteraction, { passive: true }));
-    // Fallback: load after 8s even without interaction (real passive users)
     const fallbackTimer = setTimeout(() => { loadSalesIQ(); events.forEach(e => window.removeEventListener(e, handleInteraction)); }, 8000);
 
     return () => {
@@ -160,6 +160,7 @@ function App() {
           <Route path="/platforms/microsoft" element={<MicrosoftSolution />} />
           <Route path="/platforms/zoho" element={<ZohoSolution />} />
           <Route path="/platforms/odoo" element={<OdooSolution />} />
+          <Route path="/platforms/shopify" element={<ShopifySolution />} />
           <Route
             path="/solutions/api-integration"
             element={<ApiIntegration />}
@@ -222,6 +223,7 @@ function App() {
           <Route path="/platforms/microsoft-solutions" element={<MicrosoftSolution />} />
           <Route path="/platforms/zoho-solutions" element={<ZohoSolution />} />
           <Route path="/platforms/odoo-solutions" element={<OdooSolution />} />
+          <Route path="/platforms/shopify-solutions" element={<ShopifySolution />} />
           <Route path="/industries/healthcare" element={<Healthcare />} />
           <Route path="/industries/retail" element={<Retail />} />
           <Route path="/industries/manufacturing" element={<Manufacturing />} />

@@ -7,6 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,8 +26,11 @@ code {
   body {
     font-size: 16px !important;
   }
-  p, li, span, a {
-    font-size: 16px !important;
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  
+  /* Tap Target Optimization */
+  button, .primary-btn, .secondary-btn {
+    min-height: 48px;
   }
 }
-

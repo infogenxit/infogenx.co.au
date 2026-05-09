@@ -23,7 +23,7 @@ import LogoImg2 from "../../assets/images/infogenx-logos-images-2.webp";
 import LogoImg3 from "../../assets/images/infogenx-logos-images-3.webp";
 import LogoImg4 from "../../assets/images/infogenx-logos-images-4.webp";
 import LogoImg5 from "../../assets/images/infogenx-logos-images-5.webp";
-import { Helmet } from "react-helmet-async";
+
 import SEO from "../../components/SEO/SEO";
 import { useNavigate } from "react-router-dom";
 const projects = [
@@ -146,21 +146,11 @@ const Portfolio = () => {
   return (
     <>
       <SEO
-        title="Our Portfolio | Trusted IT Solutions Brisbane"
-        description="Explore our Portfolio of successful IT projects in Brisbane. From custom application development to intelligent automation, see how we help businesses scale."
-        keywords="IT portfolio Brisbane, software projects Australia, digital work showcase, app development portfolio"
+        title="Our Portfolio | Infogenx Projects"
+        description="Discover Infogenx portfolio showcasing our web development, UI/UX design, and software projects delivered to clients across various industries."
+        keywords="Infogenx portfolio, web development projects, full-stack projects, software development work, UI UX portfolio"
       />
-      {/* <Helmet>
-        <title>Our Portfolio | Infogenx Projects</title>
-        <meta
-          name="description"
-          content="Discover Infogenx portfolio showcasing our web development, UI/UX design, and software projects delivered to clients across various industries."
-        />
-        <meta
-          name="keywords"
-          content="Infogenx portfolio, web development projects, full-stack projects, software development work, UI UX portfolio"
-        />
-      </Helmet> */}
+
 
       <section className="appdev-hero">
         <img
@@ -169,10 +159,10 @@ const Portfolio = () => {
           src={AboutCornerAccent}
         ></img>
         <div className="appdev-container">
-          {/* LEFT CONTENT */}
+
 
           <div className="appdev-left">
-            <h1>Our Portfolio of Success in Brisbane</h1>
+            <h1>Explore Our Portfolio of High-Impact Digital Work</h1>
 
             <p>
               Websites, applications, and digital solutions built to combine
@@ -197,7 +187,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* RIGHT VIDEO */}
+
           <div className="appdev-right">
             <div className="appdev-video-wrapper">
               <div className="bg"></div>
@@ -216,7 +206,7 @@ const Portfolio = () => {
 
       <section className="portfolio-section">
         <div className="portfolio-container">
-          {/* HEADER */}
+
           <h2 className="portfolio-title">Built to Perform</h2>
 
           <p className="portfolio-subtitle">
@@ -225,7 +215,7 @@ const Portfolio = () => {
             across industries.
           </p>
 
-          {/* FILTER BUTTONS */}
+
           <div className="portfolio-filters">
             {filters.map((filter) => (
               <button
@@ -240,7 +230,7 @@ const Portfolio = () => {
             ))}
           </div>
 
-          {/* GRID */}
+
           <div className="portfolio-grid">
             {filteredProjects.map((project) => (
               <div className="portfolio-card" key={project.id}>
