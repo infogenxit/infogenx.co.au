@@ -66,7 +66,7 @@ const ServiceHighlight = () => {
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
-  });
+  }, [services.length]);
   const service = services[activeIndex];
   return (
     <section
@@ -104,80 +104,50 @@ const ServiceHighlight = () => {
                 src={service.video}
                 autoPlay
                 muted
-                loop
-                playsInline
-                className="service-video"
-              />
+    <section className="service-section">
+      <div className="service-stack">
+        {services.map((item, i) => (
+          <div
+            key={i}
+            className="service-card"
+            style={{ background: item.background }}
+          >
+            <div className="service-content">
+              <h2 className="service-title">
+                {item.title.split("\n").map((line, idx) => (
+                  <span key={idx}>
+                    {line}
+                    <br />
+                  </span>
+                ))}
+              </h2>
+              <p className="service-description">{item.description}</p>
+              <button
+                className="service-btn"
+                onClick={() => navigate("/contact-us")}
+              >
+                Talk to our Experts <span className="arrow">→</span>
+              </button>
+            </div>
+            <div className="service-media-container">
+              <div style={{ padding: "0 20px" }}>
+                <span className="service-index">{item.index}</span>
+              </div>
+              <div className="service-media">
+                <video
+                  src={item.video}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="service-video"
+                />
+              </div>
             </div>
           </div>
-        </div> */}
-        <div className="service-stack">
-          {services.map((item, i) => {
-            const isActive = i === activeIndex;
-            const isPast = i < activeIndex;
-            const isFuture = i > activeIndex;
-            const stackOffset = activeIndex - i;
-            return (
-              <div
-                key={i}
-                className={`service-card ${isActive ? "active" : isPast ? "stacked" : "future"}`}
-                style={{
-                  background: item.background,
-                  transform: isActive 
-                    ? "translateY(0)" 
-                    : isPast 
-                      ? `translateY(-${stackOffset * 35}px)` 
-                      : "translateY(0px)",
-                  opacity: isFuture ? 0 : 1,
-                  zIndex: 100 - i,
-                  visibility: isFuture ? "hidden" : "visible",
-                }}
-              >
-                <div className="service-content">
-                  <h2 className="service-title">
-                    {item.title.split("\n").map((line, idx) => (
-                      <span key={idx}>
-                        {line}
-                        <br />
-                      </span>
-                    ))}
-                  </h2>
-                  <p className="service-description">{item.description}</p>
-                  {isActive && (
-                    <button
-                      className="service-btn"
-                      onClick={() => navigate("/contact-us")}
-                    >
-                      Talk to our Experts <span className="arrow">→</span>
-                    </button>
-                  )}
-                </div>
-                <div className="service-media-container">
-                  {/* <span className="service-index">{item.index}</span> */}
-                  <div style={{ padding: "0 20px" }}>
-                    <span className="service-index">{item.index}</span>
-                  </div>
-                  {isActive && (
-                    <div className="service-media">
-                      <video
-                        key={item.video}
-                        src={item.video}
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="service-video"
-                      />
-                    </div>
-                  )}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        ))}
       </div>
     </section>
   );
 };
 export default ServiceHighlight;
-

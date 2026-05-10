@@ -33,4 +33,33 @@ code {
   button, .primary-btn, .secondary-btn {
     min-height: 48px;
   }
+
+:root {
+  --primary-color: #00123c;
+  --secondary-color: #ff5e14;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-color) #f1f1f1;
 }
