@@ -10,6 +10,7 @@ import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const DigitalTransformation = () => {
   const transformationContent = [
@@ -51,7 +52,8 @@ const DigitalTransformation = () => {
   ];
 
   const breadcrumbItems = [
-    { name: "Solutions", path: "/solutions/digital-transformation" }
+    { name: "Solutions", path: PATHS.home },
+    { name: "Digital Transformation", path: PATHS.digitalTransformation }
   ];
 
   const faqs = [
@@ -81,17 +83,17 @@ const DigitalTransformation = () => {
     {
       title: "Intelligent Automation",
       description: "Streamline workflows and reduce operational friction with AI-driven automation.",
-      link: "/solutions/intelligent-automation"
+      link: PATHS.intelligentAutomation
     },
     {
       title: "Modern Applications",
       description: "Build scalable, cloud-native applications tailored to your business objectives.",
-      link: "/solutions/modern-applications"
+      link: PATHS.modernApplications
     },
     {
       title: "API Integration",
       description: "Connect your business ecosystem with seamless API-first solutions.",
-      link: "/solutions/api-integration"
+      link: PATHS.apiIntegration
     }
   ];
   return (
@@ -101,19 +103,6 @@ const DigitalTransformation = () => {
         description="Infogenx helps Australian organizations modernize systems, optimize operations, and scale securely through outcome-driven digital transformation consulting."
         keywords="digital transformation consulting Australia, business process transformation, enterprise modernization"
       />
-      {/* <Helmet>
-        <title>
-          Digital Transformation for Australian Businesses | Infogenx
-        </title>
-        <meta
-          name="description"
-          content="Infogenx helps Australian organizations modernize systems, optimize operations, and scale securely through outcome-driven digital transformation consulting. "
-        />
-        <meta
-          name="keywords"
-          content="digital transformation consulting Australia, business process transformation, enterprise modernization"
-        />
-      </Helmet> */}
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />

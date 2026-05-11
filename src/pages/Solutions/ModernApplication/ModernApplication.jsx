@@ -10,6 +10,7 @@ import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const ModernApplication = () => {
   const modernAppContent = [
@@ -48,8 +49,8 @@ const ModernApplication = () => {
   ];
 
   const breadcrumbItems = [
-    { name: "Solutions", path: "/solutions/digital-transformation" },
-    { name: "Modern Applications", path: "/solutions/modern-applications" }
+    { name: "Solutions", path: PATHS.home },
+    { name: "Modern Applications", path: PATHS.modernApplications }
   ];
 
   const faqs = [
@@ -79,37 +80,26 @@ const ModernApplication = () => {
     {
       title: "Digital Transformation",
       description: "Modernise your business ecosystem with global digital strategy and engineering.",
-      link: "/solutions/digital-transformation"
+      link: PATHS.digitalTransformation
     },
     {
       title: "Intelligent Automation",
       description: "Streamline workflows and reduce operational friction with AI-driven automation.",
-      link: "/solutions/intelligent-automation"
+      link: PATHS.intelligentAutomation
     },
     {
       title: "API Integration",
       description: "Connect your business ecosystem with seamless API-first solutions.",
-      link: "/solutions/api-integration"
+      link: PATHS.apiIntegration
     }
   ];
   return (
     <>
       <SEO
-        title="Modern Application Development & Engineering | Infogenx"
-        description="Infogenx designs and builds secure, scalable, cloud-native applications that support business growth and long-term digital scalability."
-        keywords="application development Australia, cloud-native applications, custom software engineering"
+        title="Modern Application Development & Engineering | Infogenx Australia"
+        description="Infogenx designs and builds secure, scalable, cloud-native applications in Australia. We help businesses modernize legacy systems and scale through high-impact engineering."
+        keywords="application development Australia, cloud-native applications, custom software engineering, Infogenx"
       />
-      {/* <Helmet>
-        <title>Modern Application Development & Engineering | Infogenx</title>
-        <meta
-          name="description"
-          content="Infogenx designs and builds secure, scalable, cloud-native applications that support business growth and long-term digital scalability. "
-        />
-        <meta
-          name="keywords"
-          content="application development Australia, cloud-native applications, custom software engineering"
-        />
-      </Helmet> */}
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />

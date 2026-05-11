@@ -2,21 +2,20 @@ import AppDevHero from "../../../sections/Services/ConsultingAdvisory/Consulting
 import AppDevExpertise from "../../../sections/Services/ConsultingAdvisory/ConsultingExpertise/ConsultingExpertise";
 import AppDevApproach from "../../../sections/Services/ConsultingAdvisory/ConsultingAppDev/ConsultingAppDev";
 import AppDevBusinessImpact from "../../../sections/Services/ConsultingAdvisory/ConsultingBusinessImpact/ConsultingBusinessImpact";
-// import AppDevImpactCTA from "../../../components/Analytics/AppDevImpactCTA/AppDevImpactCTA";
-import { Helmet } from "react-helmet-async";
 import SEO from "../../../components/SEO/SEO";
 import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const ConsultingAdvisory = () => {
   const consultingContent = [
     {
-      heading: "Navigating Complexity: Strategic Technology Advisory for the Digital Age",
+      heading: "Strategic Technology Advisory for the Australian Market",
       content: [
-        "In an era defined by rapid technological shifts and increasing market volatility, making the right technical decisions is more critical than ever. At Infogenx, we provide high-impact Consulting and Advisory services that help Australian businesses navigate the complexities of digital transformation, AI adoption, and infrastructure modernization. We act as your strategic partner, ensuring that every technology investment is aligned with your broader business objectives and delivers a measurable return.",
-        "Our consultants bring a wealth of experience across diverse industries, providing the objective perspective and deep technical knowledge needed to solve your most challenging architectural and operational problems. From Brisbane to Sydney, we help organizations turn technical uncertainty into a clear, actionable roadmap for success."
+        "In an era defined by rapid technological shifts, making the right technical decisions is more critical than ever. At Infogenx, we provide high-impact Consulting and Advisory services that help Australian businesses navigate the complexities of digital transformation, AI adoption, and infrastructure modernization.",
+        "Our consultants bring deep technical knowledge needed to solve your most challenging architectural problems. We help organizations turn technical uncertainty into a clear, actionable roadmap for success across Australia."
       ]
     },
     {
@@ -25,23 +24,23 @@ const ConsultingAdvisory = () => {
         "Our consulting practice is built upon a foundation of technical excellence and business acumen. We focus on the areas that drive the most value for modern enterprises."
       ],
       list: [
-        { label: "Digital Strategy & Roadmap Planning", text: "We help you define a long-term vision for your technology ecosystem, prioritizing initiatives based on ROI, risk, and strategic importance." },
-        { label: "Platform Selection & Evaluation", text: "Objective analysis of ERP, CRM, and cloud platforms (Microsoft, Zoho, Odoo) to find the perfect fit for your specific workflows and budget." },
-        { label: "AI & Automation Readiness Audits", text: "Determine exactly where AI and automation can provide the greatest impact within your organization and build a plan for secure implementation." }
+        { label: "Digital Strategy & Roadmap Planning", text: "We help you define a long-term vision for your technology ecosystem, prioritizing initiatives based on ROI and strategic importance." },
+        { label: "Platform Selection & Evaluation", text: "Objective analysis of ERP, CRM, and cloud platforms to find the perfect fit for your specific workflows and budget." },
+        { label: "AI & Automation Readiness Audits", text: "Determine exactly where AI and automation can provide the greatest impact within your organization." }
       ]
     },
     {
       heading: "The Infogenx Audit & Roadmap Methodology",
       content: [
-        "We believe that great advice is based on great data. Our advisory process begins with a comprehensive technical and operational audit. We interview key stakeholders, analyze your current system performance, and identify the 'friction points' that are holding your business back.",
-        "This data-driven approach allows us to create a customized execution roadmap that addresses both your immediate needs and your long-term ambitions. We don't just hand you a report; we provide a living strategy that evolves with your business, ensuring you stay ahead of the technical curve."
+        "We believe that great advice is based on great data. Our advisory process begins with a comprehensive technical and operational audit. We interview key stakeholders and analyze your current system performance.",
+        "This data-driven approach allows us to create a customized execution roadmap that addresses both your immediate needs and your long-term ambitions."
       ]
     },
     {
       heading: "Aligning Technology with Business Ambition",
       content: [
-        "A successful technology strategy is one that supports, rather than hinders, your business goals. We specialize in 'Business-IT Alignment,' ensuring that your IT department is not a cost center, but a value-driver. We help you establish governance structures, optimize your IT spend, and build a culture of innovation that empowers your employees to achieve more.",
-        "By future-proofing your enterprise with the right technical foundations today, we ensure that you are ready to capitalize on the opportunities of tomorrow, whatever they may be."
+        "A successful technology strategy is one that supports your business goals. We specialize in 'Business-IT Alignment,' ensuring that your IT department is a value-driver.",
+        "By future-proofing your enterprise with the right technical foundations today, we ensure that you are ready to capitalize on the opportunities of tomorrow."
       ]
     }
   ];
@@ -73,22 +72,22 @@ const ConsultingAdvisory = () => {
     {
       title: "Digital Transformation",
       description: "Modernise your business ecosystem with global digital strategy and engineering.",
-      link: "/solutions/digital-transformation"
+      link: PATHS.digitalTransformation
     },
     {
       title: "Managed Services",
       description: "Ensure performance, security, and reliability with our proactive IT support.",
-      link: "/services/managed-services"
+      link: PATHS.managedServices
     },
     {
       title: "Data Analytics & AI",
       description: "Turn your business data into actionable intelligence and strategic decision-support.",
-      link: "/solutions/data-analytics-ai"
+      link: PATHS.dataAnalyticsAi
     }
   ];
   const breadcrumbItems = [
-    { name: "Services", path: "/services/managed-services" },
-    { name: "Consulting & Advisory", path: "/services/consulting-advisory" }
+    { name: "Services", path: PATHS.home },
+    { name: "Consulting & Advisory", path: PATHS.consultingAdvisory }
   ];
   return (
     <>
@@ -109,7 +108,6 @@ const ConsultingAdvisory = () => {
       <AppDevBusinessImpact />
       <ServiceFaq faqs={faqs} />
       <RelatedServices items={relatedItems} />
-      {/* <AppDevImpactCTA /> */}
     </>
   );
 };

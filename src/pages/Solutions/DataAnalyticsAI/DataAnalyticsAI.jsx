@@ -10,13 +10,14 @@ import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const DataAnalyticsAI = () => {
   const analyticsContent = [
     {
       heading: "Transforming Data into Decision-Grade Intelligence",
       content: [
-        "In the digital economy, data is often referred to as the 'new oil.' However, raw data without refinement is just noise. At Infogenx, we specialize in the refinement process, transforming vast quantities of unstructured information into clear, actionable, decision-grade intelligence. Our Data Analytics & AI solutions are designed to help Australian businesses move beyond looking in the rearview mirror and start predicting the road ahead.",
+        "In the digital economy, data is often referred to as the 'new oil.' However, raw data without refinement is just noise. At Infogenx, we specialize in the refinement process, transforming vast quantities of unstructured information into clear, actionable, decision-grade intelligence. Our Data Analytics & AI solutions are designed to help businesses move beyond looking in the rearview mirror and start predicting the road ahead.",
         "From identifying hidden market trends to automating complex decision-making processes, our data scientists and engineers build the intelligent systems that give your organization a distinct competitive advantage. We help you unlock the true value of your information, ensuring that every data point serves a strategic purpose."
       ]
     },
@@ -48,8 +49,8 @@ const DataAnalyticsAI = () => {
   ];
 
   const breadcrumbItems = [
-    { name: "Solutions", path: "/solutions/digital-transformation" },
-    { name: "Data Analytics & AI", path: "/solutions/data-analytics-ai" }
+    { name: "Solutions", path: PATHS.home },
+    { name: "Data Analytics & AI", path: PATHS.dataAnalyticsAi }
   ];
 
   const faqs = [
@@ -71,7 +72,7 @@ const DataAnalyticsAI = () => {
     },
     {
       question: "Is my business data secure when using your AI solutions?",
-      answer: "Absolutely. We implement strict data governance and security protocols, ensuring all data processing complies with Australian privacy standards."
+      answer: "Absolutely. We implement strict data governance and security protocols, ensuring all data processing complies with the latest privacy standards."
     }
   ];
 
@@ -79,39 +80,26 @@ const DataAnalyticsAI = () => {
     {
       title: "Intelligent Automation",
       description: "Streamline workflows and reduce operational friction with AI-driven automation.",
-      link: "/solutions/intelligent-automation"
+      link: PATHS.intelligentAutomation
     },
     {
       title: "Modern Applications",
       description: "Build scalable, cloud-native applications tailored to your business objectives.",
-      link: "/solutions/modern-applications"
+      link: PATHS.modernApplications
     },
     {
       title: "API Integration",
       description: "Connect your business ecosystem with seamless API-first solutions.",
-      link: "/solutions/api-integration"
+      link: PATHS.apiIntegration
     }
   ];
   return (
     <>
       <SEO
-        title="Business Intelligence Brisbane | Trusted Experts"
-        description="Scale your company with leading Business Intelligence services in Brisbane. Our expert team delivers data-driven insights and predictive analytics to empower your business decisions."
-        keywords="Business Intelligence Brisbane, Data Analytics Brisbane, AI solutions Brisbane, predictive analytics Australia"
+        title="Data Analytics & AI Solutions | Business Intelligence Experts | Infogenx"
+        description="Transform your data into actionable intelligence with Infogenx's expert analytics and AI solutions. We help businesses predict trends and optimize performance through data-driven strategies."
+        keywords="data analytics, business intelligence, AI solutions, predictive analytics, Infogenx"
       />
-      {/* <Helmet>
-        <title>
-          Data, Analytics & AI Consulting Services | Infogenx Australia
-        </title>
-        <meta
-          name="description"
-          content="Turn data into confident decisions with Infogenx’s analytics engineering and AI solutions designed for insight, performance, and business impact. "
-        />
-        <meta
-          name="keywords"
-          content="data analytics consulting Australia, AI consulting, analytics engineering"
-        />
-      </Helmet> */}
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />

@@ -9,6 +9,7 @@ import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const ManagedServices = () => {
   const managedContent = [
@@ -49,17 +50,17 @@ const ManagedServices = () => {
     {
       title: "Digital Transformation",
       description: "Modernise your business ecosystem with Australian-led digital strategy and engineering.",
-      link: "/solutions/digital-transformation"
+      link: PATHS.digitalTransformation
     },
     {
       title: "Intelligent Automation",
       description: "Streamline workflows and reduce operational friction with AI-driven automation.",
-      link: "/solutions/intelligent-automation"
+      link: PATHS.intelligentAutomation
     },
     {
       title: "Data Analytics & AI",
       description: "Turn your business data into actionable intelligence and strategic decision-support.",
-      link: "/solutions/data-analytics-ai"
+      link: PATHS.dataAnalyticsAi
     }
   ];
   const faqs = [
@@ -85,7 +86,8 @@ const ManagedServices = () => {
     }
   ];
   const breadcrumbItems = [
-    { name: "Services", path: "/services/managed-services" }
+    { name: "Services", path: PATHS.home },
+    { name: "Managed Services", path: PATHS.managedServices }
   ];
   return (
     <>
@@ -94,19 +96,6 @@ const ManagedServices = () => {
         description="Maximize uptime and security with Infogenx Managed IT Services in Australia. We provide proactive monitoring, SLA-driven support, and system optimization for Microsoft, Zoho, and Odoo ecosystems."
         keywords="managed IT services Australia, proactive IT support Brisbane, business system monitoring"
       />
-      {/* <Helmet>
-        <title>
-          Managed IT Services & Ongoing Support | Infogenx Australia
-        </title>
-        <meta
-          name="description"
-          content="Ensure performance, security, and reliability with Infogenx’s managed services, proactive monitoring, and SLA-driven IT support."
-        />
-        <meta
-          name="keywords"
-          content="managed IT services Australia, IT support and maintenance"
-        />
-      </Helmet> */}
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />
