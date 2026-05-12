@@ -9,14 +9,15 @@ import Breadcrumbs from "../../../sections/Common/Breadcrumbs/Breadcrumbs";
 import ServiceFaq from "../../../sections/Common/ServiceFaq/ServiceFaq";
 import RelatedServices from "../../../sections/Common/RelatedServices/RelatedServices";
 import ServiceDetailedContent from "../../../sections/Common/ServiceDetailedContent/ServiceDetailedContent";
+import { PATHS } from "../../../route/paths";
 
 const DigitalMarketing = () => {
   const marketingContent = [
     {
-      heading: "Elevating Your Brand in the Australian Digital Landscape",
+      heading: "Elevating Your Brand in the Digital Landscape",
       content: [
-        "In an increasingly crowded digital marketplace, having a great product or service is only half the battle. To truly thrive, you must be visible to the right audience, at the right time, with the right message. At Infogenx, we provide high-impact Digital Marketing solutions designed to cut through the noise and drive measurable growth for Australian businesses. We move beyond vanity metrics like 'likes' and 'followers,' focusing instead on lead generation, conversion, and long-term brand equity.",
-        "Our marketing strategies are rooted in data and powered by creativity. Whether you are a local Brisbane business looking to dominate your regional market or an Australian enterprise aiming for global reach, we provide the technical expertise and strategic insight needed to optimize your online presence and maximize your marketing ROI."
+        "In an increasingly crowded digital marketplace, having a great product or service is only half the battle. To truly thrive, you must be visible to the right audience, at the right time, with the right message. At Infogenx, we provide high-impact Digital Marketing solutions designed to cut through the noise and drive measurable growth. We move beyond vanity metrics like 'likes' and 'followers,' focusing instead on lead generation, conversion, and long-term brand equity.",
+        "Our marketing strategies are rooted in data and powered by creativity. We provide the technical expertise and strategic insight needed to optimize your online presence and maximize your marketing ROI."
       ]
     },
     {
@@ -41,7 +42,7 @@ const DigitalMarketing = () => {
       heading: "Beyond Clicks: Focusing on Conversion and ROI",
       content: [
         "At Infogenx, our ultimate goal is not just to drive traffic, but to drive revenue. We focus heavily on Conversion Rate Optimization (CRO), ensuring that the traffic we generate is funneled into a seamless, high-converting user experience. We analyze user behavior, identify friction points in your sales funnel, and implement changes that turn visitors into loyal customers.",
-        "Our strategic content and social framework ensures that your brand voice remains consistent and impactful across every touchpoint, building the trust and credibility necessary to win in the modern Australian digital economy. We are your partners in growth, committed to delivering marketing excellence that lasts."
+        "Our strategic content and social framework ensures that your brand voice remains consistent and impactful across every touchpoint, building the trust and credibility necessary to win in the modern digital economy. We are your partners in growth, committed to delivering marketing excellence that lasts."
       ]
     }
   ];
@@ -56,8 +57,8 @@ const DigitalMarketing = () => {
       answer: "We use advanced analytics and performance reporting to track KPIs like conversion rates, ROI, and customer engagement, ensuring your budget is spent effectively."
     },
     {
-      question: "Can you help with local SEO for Australian businesses?",
-      answer: "Yes, we specialize in local SEO strategies that help Australian businesses appear in relevant search results and attract local customers."
+      question: "Can you help with local SEO?",
+      answer: "Yes, we specialize in local SEO strategies that help businesses appear in relevant search results and attract local customers."
     },
     {
       question: "Do you offer social media advertising management?",
@@ -73,41 +74,30 @@ const DigitalMarketing = () => {
     {
       title: "Implementation & Integration",
       description: "Seamlessly integrate your marketing tech stack with Microsoft, Zoho, or Odoo.",
-      link: "/services/implementation-integration"
+      link: PATHS.implementationIntegration
     },
     {
       title: "Consulting & Advisory",
       description: "Strategic guidance to align your digital marketing with your business goals.",
-      link: "/services/consulting-advisory"
+      link: PATHS.consultingAdvisory
     },
     {
       title: "Managed Services",
       description: "Ongoing support and optimization for your digital marketing platforms.",
-      link: "/services/managed-services"
+      link: PATHS.managedServices
     }
   ];
   const breadcrumbItems = [
-    { name: "Services", path: "/services/managed-services" },
-    { name: "Digital Marketing", path: "/services/digital-marketing" }
+    { name: "Services", path: PATHS.home },
+    { name: "Digital Marketing", path: PATHS.digitalMarketing }
   ];
   return (
     <>
       <SEO
-        title="Digital Marketing Services | Infogenx Australia"
-        description="Boost your online presence and drive growth with our comprehensive digital marketing solutions tailored for the Australian market."
-        keywords="digital marketing Australia, online marketing services"
+        title="Digital Marketing Brisbane | Trusted Experts & Agency"
+        description="Scale your company with leading Digital Marketing Brisbane services in Brisbane. Our team delivers high-quality Digital Marketing Brisbane. Get started today!"
+        keywords="digital marketing, online marketing services"
       />
-      {/* <Helmet>
-        <title>Digital Marketing Services | Infogenx Australia</title>
-        <meta
-          name="description"
-          content="Boost your online presence and drive growth with our comprehensive digital marketing solutions tailored for the Australian market."
-        />
-        <meta
-          name="keywords"
-          content="digital marketing Australia, online marketing services"
-        />
-      </Helmet> */}
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
       <AppDevExpertise />

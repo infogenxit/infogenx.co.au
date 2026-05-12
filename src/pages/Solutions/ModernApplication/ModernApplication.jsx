@@ -15,9 +15,9 @@ import { PATHS } from "../../../route/paths";
 const ModernApplication = () => {
   const modernAppContent = [
     {
-      heading: "Engineering Future-Proof Applications for the Australian Market",
+      heading: "Engineering Future-Proof Applications for the Global Market",
       content: [
-        "In a world where software is the primary touchpoint between businesses and their customers, the quality of your applications directly impacts your bottom line. At Infogenx, we don't just write code; we engineer robust, scalable, and secure digital products designed to meet the rigorous demands of the Australian market. Modern application development requires a departure from legacy thinking, embracing agility, user-centric design, and technical excellence.",
+        "In a world where software is the primary touchpoint between businesses and their customers, the quality of your applications directly impacts your bottom line. At Infogenx, we don't just write code; we engineer robust, scalable, and secure digital products designed to meet the rigorous demands of the modern market. Modern application development requires a departure from legacy thinking, embracing agility, user-centric design, and technical excellence.",
         "From consumer-facing mobile apps to complex enterprise resource planning systems, our engineering team focuses on creating software that is not only functional today but adaptable for the innovations of tomorrow. We bridge the gap between complex business requirements and elegant technical execution, ensuring your digital assets drive real value."
       ]
     },
@@ -96,9 +96,9 @@ const ModernApplication = () => {
   return (
     <>
       <SEO
-        title="Modern Application Development & Engineering | Infogenx Australia"
-        description="Infogenx designs and builds secure, scalable, cloud-native applications in Australia. We help businesses modernize legacy systems and scale through high-impact engineering."
-        keywords="application development Australia, cloud-native applications, custom software engineering, Infogenx"
+        title="Application Development Brisbane | Trusted Experts"
+        description="Experience the best Application Development Brisbane has to offer. Our expert team focuses on Custom Software to drive results and maximize your ROI."
+        keywords="modern application development, cloud-native applications, custom software engineering, Infogenx"
       />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />

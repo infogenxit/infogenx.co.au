@@ -17,7 +17,7 @@ const ManagedServices = () => {
       heading: "Reliable Managed IT Services for Proactive Growth",
       content: [
         "In today’s technology-dependent business landscape, downtime isn’t just an inconvenience—it’s a direct hit to your reputation and revenue. At Infogenx, we provide comprehensive Managed IT Services designed to take the burden of technology management off your shoulders, allowing you to focus on your core business goals. Our proactive approach ensures that your systems are not just 'running,' but optimized for maximum performance, security, and scalability.",
-        "From small startups to established enterprises across Australia, our team of dedicated engineers provides 24/7 monitoring and support, acting as an seamless extension of your internal team. We don't wait for things to break; we use advanced telemetry and predictive maintenance to resolve issues before they ever impact your operations."
+        "Our team of dedicated engineers provides 24/7 monitoring and support, acting as an seamless extension of your internal team. We don't wait for things to break; we use advanced telemetry and predictive maintenance to resolve issues before they ever impact your operations."
       ]
     },
     {
@@ -32,9 +32,9 @@ const ManagedServices = () => {
       ]
     },
     {
-      heading: "Why Australian Organizations Choose Infogenx",
+      heading: "Why Organizations Choose Infogenx",
       content: [
-        "Unlike traditional IT providers who profit when your systems fail, our managed services model aligns our success with yours. We thrive when your technology is invisible, silent, and flawlessly efficient. Our local presence in Brisbane and Sydney means we understand the specific compliance and regulatory requirements of the Australian market, including the latest cybersecurity standards and privacy laws.",
+        "Unlike traditional IT providers who profit when your systems fail, our managed services model aligns our success with yours. We thrive when your technology is invisible, silent, and flawlessly efficient. We understand specific compliance and regulatory requirements, including the latest cybersecurity standards and privacy laws.",
         "We provide transparent, fixed-monthly-cost models that allow you to budget your IT spend with total confidence, eliminating the unpredictable expenses associated with the 'break-fix' approach."
       ]
     },
@@ -49,7 +49,7 @@ const ManagedServices = () => {
   const relatedItems = [
     {
       title: "Digital Transformation",
-      description: "Modernise your business ecosystem with Australian-led digital strategy and engineering.",
+      description: "Modernise your business ecosystem with global digital strategy and engineering.",
       link: PATHS.digitalTransformation
     },
     {
@@ -69,7 +69,7 @@ const ManagedServices = () => {
       answer: "Our managed services include 24/7 proactive monitoring, SLA-driven support, system optimization, security management, and regular performance audits for Microsoft, Zoho, and Odoo ecosystems."
     },
     {
-      question: "Do you offer 24/7 support for Australian businesses?",
+      question: "Do you offer 24/7 support?",
       answer: "Yes, we provide round-the-clock monitoring and support to ensure your critical business applications remain operational and secure at all times."
     },
     {
@@ -92,9 +92,9 @@ const ManagedServices = () => {
   return (
     <>
       <SEO
-        title="Managed IT Services Australia | Proactive Support & Monitoring | Infogenx"
-        description="Maximize uptime and security with Infogenx Managed IT Services in Australia. We provide proactive monitoring, SLA-driven support, and system optimization for Microsoft, Zoho, and Odoo ecosystems."
-        keywords="managed IT services Australia, proactive IT support Brisbane, business system monitoring"
+        title="Api Integration Brisbane | Trusted Experts & Agency"
+        description="Scale your company with leading Api Integration Brisbane services in Brisbane. Our team delivers high-quality Crm Automation Brisbane. Get started today!"
+        keywords="managed IT services, proactive IT support, business system monitoring"
       />
       <Breadcrumbs items={breadcrumbItems} />
       <AppDevHero />
